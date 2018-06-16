@@ -4,8 +4,17 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module PipelinesOperationsExtensions" />
   <TypeSignature Language="F#" Value="type PipelinesOperationsExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class PipelinesOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ CX" Value="public ref class PipelinesOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ WINRT" Value="class PipelinesOperationsExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+    <AssemblyVersion>0.4.0.0</AssemblyVersion>
+    <AssemblyVersion>0.5.0.0</AssemblyVersion>
+    <AssemblyVersion>0.6.0.0</AssemblyVersion>
+    <AssemblyVersion>0.7.0.0</AssemblyVersion>
     <AssemblyVersion>0.8.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -28,6 +37,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -76,6 +91,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -134,6 +155,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -177,6 +204,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -227,9 +260,17 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.Delete(Microsoft.Azure.Management.DataFactory.IPipelinesOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IPipelinesOperations, resourceGroupName As String, factoryName As String, pipelineName As String)" />
       <MemberSignature Language="F#" Value="static member Delete : Microsoft.Azure.Management.DataFactory.IPipelinesOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.Delete (operations, resourceGroupName, factoryName, pipelineName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Delete(Microsoft::Azure::Management::DataFactory::IPipelinesOperations ^ operations, System::String ^ resourceGroupName, System::String ^ factoryName, System::String ^ pipelineName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Delete(Microsoft::Azure::Management::DataFactory::IPipelinesOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ factoryName, Platform::String ^ pipelineName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -268,6 +309,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -314,9 +361,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.Get(Microsoft.Azure.Management.DataFactory.IPipelinesOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IPipelinesOperations, resourceGroupName As String, factoryName As String, pipelineName As String) As PipelineResource" />
       <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.DataFactory.IPipelinesOperations * string * string * string -&gt; Microsoft.Azure.Management.DataFactory.Models.PipelineResource" Usage="Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.Get (operations, resourceGroupName, factoryName, pipelineName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::DataFactory::Models::PipelineResource ^ Get(Microsoft::Azure::Management::DataFactory::IPipelinesOperations ^ operations, System::String ^ resourceGroupName, System::String ^ factoryName, System::String ^ pipelineName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -356,6 +410,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -402,9 +462,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.ListByFactory(Microsoft.Azure.Management.DataFactory.IPipelinesOperations,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByFactory (operations As IPipelinesOperations, resourceGroupName As String, factoryName As String) As IPage(Of PipelineResource)" />
       <MemberSignature Language="F#" Value="static member ListByFactory : Microsoft.Azure.Management.DataFactory.IPipelinesOperations * string * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineResource&gt;" Usage="Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.ListByFactory (operations, resourceGroupName, factoryName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::DataFactory::Models::PipelineResource ^&gt; ^ ListByFactory(Microsoft::Azure::Management::DataFactory::IPipelinesOperations ^ operations, System::String ^ resourceGroupName, System::String ^ factoryName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -440,6 +507,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -482,9 +555,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.ListByFactoryNext(Microsoft.Azure.Management.DataFactory.IPipelinesOperations,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByFactoryNext (operations As IPipelinesOperations, nextPageLink As String) As IPage(Of PipelineResource)" />
       <MemberSignature Language="F#" Value="static member ListByFactoryNext : Microsoft.Azure.Management.DataFactory.IPipelinesOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.DataFactory.Models.PipelineResource&gt;" Usage="Microsoft.Azure.Management.DataFactory.PipelinesOperationsExtensions.ListByFactoryNext (operations, nextPageLink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::DataFactory::Models::PipelineResource ^&gt; ^ ListByFactoryNext(Microsoft::Azure::Management::DataFactory::IPipelinesOperations ^ operations, System::String ^ nextPageLink);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -516,6 +596,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>0.2.0.0</AssemblyVersion>
+        <AssemblyVersion>0.3.0.0</AssemblyVersion>
+        <AssemblyVersion>0.4.0.0</AssemblyVersion>
+        <AssemblyVersion>0.5.0.0</AssemblyVersion>
+        <AssemblyVersion>0.6.0.0</AssemblyVersion>
+        <AssemblyVersion>0.7.0.0</AssemblyVersion>
         <AssemblyVersion>0.8.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

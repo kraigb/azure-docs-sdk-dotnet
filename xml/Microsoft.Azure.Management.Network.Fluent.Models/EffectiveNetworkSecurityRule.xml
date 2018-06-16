@@ -4,6 +4,8 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule" />
   <TypeSignature Language="VB.NET" Value="Public Class EffectiveNetworkSecurityRule" />
   <TypeSignature Language="F#" Value="type EffectiveNetworkSecurityRule = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class EffectiveNetworkSecurityRule" />
+  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class EffectiveNetworkSecurityRule" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -24,6 +26,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; EffectiveNetworkSecurityRule();" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; EffectiveNetworkSecurityRule();" />
+      <MemberSignature Language="C++ WINRT" Value=" EffectiveNetworkSecurityRule();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -118,6 +123,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Access" />
       <MemberSignature Language="VB.NET" Value="Public Property Access As SecurityRuleAccess" />
       <MemberSignature Language="F#" Value="member this.Access : Microsoft.Azure.Management.Network.Fluent.Models.SecurityRuleAccess with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Access" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleAccess ^ Access { Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleAccess ^ get(); void set(Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleAccess ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Access { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -147,6 +154,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationAddressPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property DestinationAddressPrefix As String" />
       <MemberSignature Language="F#" Value="member this.DestinationAddressPrefix : string with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationAddressPrefix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DestinationAddressPrefix { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DestinationAddressPrefix { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -174,6 +183,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationAddressPrefixes" />
       <MemberSignature Language="VB.NET" Value="Public Property DestinationAddressPrefixes As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.DestinationAddressPrefixes : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationAddressPrefixes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ DestinationAddressPrefixes { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -203,6 +213,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationPortRange" />
       <MemberSignature Language="VB.NET" Value="Public Property DestinationPortRange As String" />
       <MemberSignature Language="F#" Value="member this.DestinationPortRange : string with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationPortRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DestinationPortRange { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DestinationPortRange { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -230,6 +242,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationPortRanges" />
       <MemberSignature Language="VB.NET" Value="Public Property DestinationPortRanges As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.DestinationPortRanges : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.DestinationPortRanges" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ DestinationPortRanges { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -259,6 +272,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Direction" />
       <MemberSignature Language="VB.NET" Value="Public Property Direction As SecurityRuleDirection" />
       <MemberSignature Language="F#" Value="member this.Direction : Microsoft.Azure.Management.Network.Fluent.Models.SecurityRuleDirection with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Direction" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleDirection ^ Direction { Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleDirection ^ get(); void set(Microsoft::Azure::Management::Network::Fluent::Models::SecurityRuleDirection ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Direction { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -288,6 +303,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.ExpandedDestinationAddressPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property ExpandedDestinationAddressPrefix As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.ExpandedDestinationAddressPrefix : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.ExpandedDestinationAddressPrefix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ ExpandedDestinationAddressPrefix { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -315,6 +331,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.ExpandedSourceAddressPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property ExpandedSourceAddressPrefix As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.ExpandedSourceAddressPrefix : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.ExpandedSourceAddressPrefix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ ExpandedSourceAddressPrefix { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -342,6 +359,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Name" />
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Name" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Name { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -370,6 +389,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Priority" />
       <MemberSignature Language="VB.NET" Value="Public Property Priority As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="member this.Priority : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Priority" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; Priority { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -397,6 +417,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Protocol" />
       <MemberSignature Language="VB.NET" Value="Public Property Protocol As EffectiveSecurityRuleProtocol" />
       <MemberSignature Language="F#" Value="member this.Protocol : Microsoft.Azure.Management.Network.Fluent.Models.EffectiveSecurityRuleProtocol with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.Protocol" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Azure::Management::Network::Fluent::Models::EffectiveSecurityRuleProtocol ^ Protocol { Microsoft::Azure::Management::Network::Fluent::Models::EffectiveSecurityRuleProtocol ^ get(); void set(Microsoft::Azure::Management::Network::Fluent::Models::EffectiveSecurityRuleProtocol ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Protocol { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -426,6 +448,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourceAddressPrefix" />
       <MemberSignature Language="VB.NET" Value="Public Property SourceAddressPrefix As String" />
       <MemberSignature Language="F#" Value="member this.SourceAddressPrefix : string with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourceAddressPrefix" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourceAddressPrefix { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ SourceAddressPrefix { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -453,6 +477,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourceAddressPrefixes" />
       <MemberSignature Language="VB.NET" Value="Public Property SourceAddressPrefixes As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.SourceAddressPrefixes : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourceAddressPrefixes" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ SourceAddressPrefixes { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -482,6 +507,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourcePortRange" />
       <MemberSignature Language="VB.NET" Value="Public Property SourcePortRange As String" />
       <MemberSignature Language="F#" Value="member this.SourcePortRange : string with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourcePortRange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SourcePortRange { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ SourcePortRange { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>
@@ -509,6 +536,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourcePortRanges" />
       <MemberSignature Language="VB.NET" Value="Public Property SourcePortRanges As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.SourcePortRanges : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.Network.Fluent.Models.EffectiveNetworkSecurityRule.SourcePortRanges" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ SourcePortRanges { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network.Fluent</AssemblyName>

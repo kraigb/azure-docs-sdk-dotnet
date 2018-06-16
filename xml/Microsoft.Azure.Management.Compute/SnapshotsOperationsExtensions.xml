@@ -4,8 +4,15 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module SnapshotsOperationsExtensions" />
   <TypeSignature Language="F#" Value="type SnapshotsOperationsExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SnapshotsOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ CX" Value="public ref class SnapshotsOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ WINRT" Value="class SnapshotsOperationsExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+    <AssemblyVersion>16.0.0.0</AssemblyVersion>
+    <AssemblyVersion>17.0.0.0</AssemblyVersion>
+    <AssemblyVersion>18.0.0.0</AssemblyVersion>
+    <AssemblyVersion>19.0.0.0</AssemblyVersion>
     <AssemblyVersion>20.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,9 +31,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.Snapshot BeginCreateOrUpdate(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.Snapshot snapshot) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.Snapshot)" />
       <MemberSignature Language="F#" Value="static member BeginCreateOrUpdate : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.Snapshot -&gt; Microsoft.Azure.Management.Compute.Models.Snapshot" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginCreateOrUpdate (operations, resourceGroupName, snapshotName, snapshot)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::Snapshot ^ BeginCreateOrUpdate(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::Snapshot ^ snapshot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,6 +80,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -119,6 +135,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -155,6 +172,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -198,9 +216,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.AccessUri BeginGrantAccess(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.GrantAccessData grantAccessData) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginGrantAccess(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.GrantAccessData)" />
       <MemberSignature Language="F#" Value="static member BeginGrantAccess : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.GrantAccessData -&gt; Microsoft.Azure.Management.Compute.Models.AccessUri" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginGrantAccess (operations, resourceGroupName, snapshotName, grantAccessData)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::AccessUri ^ BeginGrantAccess(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::GrantAccessData ^ grantAccessData);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -243,6 +266,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -295,6 +322,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -331,6 +359,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -374,9 +403,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.Snapshot BeginUpdate(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.SnapshotUpdate snapshot) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.SnapshotUpdate)" />
       <MemberSignature Language="F#" Value="static member BeginUpdate : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.SnapshotUpdate -&gt; Microsoft.Azure.Management.Compute.Models.Snapshot" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.BeginUpdate (operations, resourceGroupName, snapshotName, snapshot)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::Snapshot ^ BeginUpdate(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::SnapshotUpdate ^ snapshot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -418,6 +452,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -465,9 +503,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.Snapshot CreateOrUpdate(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.Snapshot snapshot) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.Snapshot)" />
       <MemberSignature Language="F#" Value="static member CreateOrUpdate : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.Snapshot -&gt; Microsoft.Azure.Management.Compute.Models.Snapshot" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.CreateOrUpdate (operations, resourceGroupName, snapshotName, snapshot)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::Snapshot ^ CreateOrUpdate(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::Snapshot ^ snapshot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -509,6 +552,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -560,6 +607,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -596,6 +644,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -640,9 +689,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Get(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As ISnapshotsOperations, resourceGroupName As String, snapshotName As String) As Snapshot" />
       <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string -&gt; Microsoft.Azure.Management.Compute.Models.Snapshot" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Get (operations, resourceGroupName, snapshotName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::Snapshot ^ Get(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -680,6 +734,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -723,9 +781,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.AccessUri GrantAccess(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.GrantAccessData grantAccessData) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.GrantAccess(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.GrantAccessData)" />
       <MemberSignature Language="F#" Value="static member GrantAccess : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.GrantAccessData -&gt; Microsoft.Azure.Management.Compute.Models.AccessUri" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.GrantAccess (operations, resourceGroupName, snapshotName, grantAccessData)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::AccessUri ^ GrantAccess(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::GrantAccessData ^ grantAccessData);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -768,6 +831,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -817,9 +884,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.List(Microsoft.Azure.Management.Compute.ISnapshotsOperations)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As ISnapshotsOperations) As IPage(Of Snapshot)" />
       <MemberSignature Language="F#" Value="static member List : Microsoft.Azure.Management.Compute.ISnapshotsOperations -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt;" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.List operations" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::Compute::Models::Snapshot ^&gt; ^ List(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -847,6 +919,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -881,9 +957,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroup(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroup (operations As ISnapshotsOperations, resourceGroupName As String) As IPage(Of Snapshot)" />
       <MemberSignature Language="F#" Value="static member ListByResourceGroup : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt;" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroup (operations, resourceGroupName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::Compute::Models::Snapshot ^&gt; ^ ListByResourceGroup(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -915,6 +996,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -953,9 +1038,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroupNext(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListByResourceGroupNext (operations As ISnapshotsOperations, nextPageLink As String) As IPage(Of Snapshot)" />
       <MemberSignature Language="F#" Value="static member ListByResourceGroupNext : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt;" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListByResourceGroupNext (operations, nextPageLink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::Compute::Models::Snapshot ^&gt; ^ ListByResourceGroupNext(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ nextPageLink);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -987,6 +1077,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1025,9 +1119,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListNext(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ListNext (operations As ISnapshotsOperations, nextPageLink As String) As IPage(Of Snapshot)" />
       <MemberSignature Language="F#" Value="static member ListNext : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string -&gt; Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.Snapshot&gt;" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.ListNext (operations, nextPageLink)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Rest::Azure::IPage&lt;Microsoft::Azure::Management::Compute::Models::Snapshot ^&gt; ^ ListNext(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ nextPageLink);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1059,6 +1158,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1100,6 +1203,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1136,6 +1240,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -1179,9 +1284,14 @@
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.Snapshot Update(class Microsoft.Azure.Management.Compute.ISnapshotsOperations operations, string resourceGroupName, string snapshotName, class Microsoft.Azure.Management.Compute.Models.SnapshotUpdate snapshot) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Update(Microsoft.Azure.Management.Compute.ISnapshotsOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.SnapshotUpdate)" />
       <MemberSignature Language="F#" Value="static member Update : Microsoft.Azure.Management.Compute.ISnapshotsOperations * string * string * Microsoft.Azure.Management.Compute.Models.SnapshotUpdate -&gt; Microsoft.Azure.Management.Compute.Models.Snapshot" Usage="Microsoft.Azure.Management.Compute.SnapshotsOperationsExtensions.Update (operations, resourceGroupName, snapshotName, snapshot)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Compute::Models::Snapshot ^ Update(Microsoft::Azure::Management::Compute::ISnapshotsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ snapshotName, Microsoft::Azure::Management::Compute::Models::SnapshotUpdate ^ snapshot);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1223,6 +1333,10 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>16.0.0.0</AssemblyVersion>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

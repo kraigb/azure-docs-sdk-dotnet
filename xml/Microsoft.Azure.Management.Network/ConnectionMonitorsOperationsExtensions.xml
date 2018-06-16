@@ -4,9 +4,16 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions" />
   <TypeSignature Language="VB.NET" Value="Public Module ConnectionMonitorsOperationsExtensions" />
   <TypeSignature Language="F#" Value="type ConnectionMonitorsOperationsExtensions = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ConnectionMonitorsOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ CX" Value="public ref class ConnectionMonitorsOperationsExtensions abstract sealed" />
+  <TypeSignature Language="C++ WINRT" Value="class ConnectionMonitorsOperationsExtensions abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+    <AssemblyVersion>17.0.0.0</AssemblyVersion>
+    <AssemblyVersion>18.0.0.0</AssemblyVersion>
+    <AssemblyVersion>19.0.0.0</AssemblyVersion>
     <AssemblyVersion>19.0.2.0</AssemblyVersion>
+    <AssemblyVersion>20.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -25,10 +32,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginCreateOrUpdate(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ConnectionMonitor)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginCreateOrUpdate (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String, parameters As ConnectionMonitor) As ConnectionMonitorResult" />
       <MemberSignature Language="F#" Value="static member BeginCreateOrUpdate : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ConnectionMonitor -&gt; Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginCreateOrUpdate (operations, resourceGroupName, networkWatcherName, connectionMonitorName, parameters)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Network::Models::ConnectionMonitorResult ^ BeginCreateOrUpdate(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName, Microsoft::Azure::Management::Network::Models::ConnectionMonitor ^ parameters);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult</ReturnType>
@@ -71,7 +83,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -121,10 +137,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginDelete(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginDelete (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member BeginDelete : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginDelete (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginDelete(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginDelete(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -162,7 +184,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -208,10 +234,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginQuery(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginQuery (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String) As ConnectionMonitorQueryResult" />
       <MemberSignature Language="F#" Value="static member BeginQuery : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; Microsoft.Azure.Management.Network.Models.ConnectionMonitorQueryResult" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginQuery (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Network::Models::ConnectionMonitorQueryResult ^ BeginQuery(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ConnectionMonitorQueryResult</ReturnType>
@@ -250,7 +281,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -296,10 +331,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginStart(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginStart (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member BeginStart : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginStart (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginStart(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginStart(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -337,7 +378,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -383,10 +428,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginStop(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub BeginStop (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member BeginStop : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.BeginStop (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginStop(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void BeginStop(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -424,7 +475,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -470,10 +525,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.CreateOrUpdate(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String,Microsoft.Azure.Management.Network.Models.ConnectionMonitor)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function CreateOrUpdate (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String, parameters As ConnectionMonitor) As ConnectionMonitorResult" />
       <MemberSignature Language="F#" Value="static member CreateOrUpdate : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string * Microsoft.Azure.Management.Network.Models.ConnectionMonitor -&gt; Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.CreateOrUpdate (operations, resourceGroupName, networkWatcherName, connectionMonitorName, parameters)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Network::Models::ConnectionMonitorResult ^ CreateOrUpdate(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName, Microsoft::Azure::Management::Network::Models::ConnectionMonitor ^ parameters);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult</ReturnType>
@@ -516,7 +576,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -566,10 +630,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Delete(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Delete (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member Delete : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Delete (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Delete(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Delete(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -607,7 +677,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -653,10 +727,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Get(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String) As ConnectionMonitorResult" />
       <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Get (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Network::Models::ConnectionMonitorResult ^ Get(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult</ReturnType>
@@ -695,7 +774,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -741,10 +824,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.List(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function List (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String) As IEnumerable(Of ConnectionMonitorResult)" />
       <MemberSignature Language="F#" Value="static member List : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string -&gt; seq&lt;Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult&gt;" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.List (operations, resourceGroupName, networkWatcherName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Generic::IEnumerable&lt;Microsoft::Azure::Management::Network::Models::ConnectionMonitorResult ^&gt; ^ List(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Network.Models.ConnectionMonitorResult&gt;</ReturnType>
@@ -779,7 +867,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -821,10 +913,15 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Query(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Query (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String) As ConnectionMonitorQueryResult" />
       <MemberSignature Language="F#" Value="static member Query : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; Microsoft.Azure.Management.Network.Models.ConnectionMonitorQueryResult" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Query (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Microsoft::Azure::Management::Network::Models::ConnectionMonitorQueryResult ^ Query(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ConnectionMonitorQueryResult</ReturnType>
@@ -863,7 +960,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -909,10 +1010,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Start(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Start (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member Start : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Start (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Start(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Start(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -950,7 +1057,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -996,10 +1107,16 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Stop(Microsoft.Azure.Management.Network.IConnectionMonitorsOperations,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Stop (operations As IConnectionMonitorsOperations, resourceGroupName As String, networkWatcherName As String, connectionMonitorName As String)" />
       <MemberSignature Language="F#" Value="static member Stop : Microsoft.Azure.Management.Network.IConnectionMonitorsOperations * string * string * string -&gt; unit" Usage="Microsoft.Azure.Management.Network.ConnectionMonitorsOperationsExtensions.Stop (operations, resourceGroupName, networkWatcherName, connectionMonitorName)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Stop(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, System::String ^ resourceGroupName, System::String ^ networkWatcherName, System::String ^ connectionMonitorName);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void Stop(Microsoft::Azure::Management::Network::IConnectionMonitorsOperations ^ operations, Platform::String ^ resourceGroupName, Platform::String ^ networkWatcherName, Platform::String ^ connectionMonitorName);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1037,7 +1154,11 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
+        <AssemblyVersion>17.0.0.0</AssemblyVersion>
+        <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

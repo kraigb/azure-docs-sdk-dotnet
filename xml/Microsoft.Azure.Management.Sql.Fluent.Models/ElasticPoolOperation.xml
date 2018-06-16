@@ -4,6 +4,8 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation" />
   <TypeSignature Language="VB.NET" Value="Public Class ElasticPoolOperation&#xA;Inherits ProxyResourceInner" />
   <TypeSignature Language="F#" Value="type ElasticPoolOperation = class&#xA;    inherit ProxyResourceInner" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ElasticPoolOperation : Microsoft::Azure::Management::Sql::Fluent::Models::ProxyResourceInner" />
+  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class ElasticPoolOperation : Microsoft::Azure::Management::Sql::Fluent::Models::ProxyResourceInner" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -29,6 +31,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ElasticPoolOperation();" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; ElasticPoolOperation();" />
+      <MemberSignature Language="C++ WINRT" Value=" ElasticPoolOperation();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -109,6 +114,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.Description" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
       <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.Description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Description { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -136,6 +143,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ElasticPoolName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ElasticPoolName As String" />
       <MemberSignature Language="F#" Value="member this.ElasticPoolName : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ElasticPoolName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ElasticPoolName { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ElasticPoolName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -164,6 +173,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorCode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorCode As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="member this.ErrorCode : Nullable&lt;int&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorCode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; ErrorCode { Nullable&lt;int&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -191,6 +201,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorDescription" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorDescription As String" />
       <MemberSignature Language="F#" Value="member this.ErrorDescription : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorDescription" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ErrorDescription { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ErrorDescription { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -218,6 +230,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorSeverity" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ErrorSeverity As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="member this.ErrorSeverity : Nullable&lt;int&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ErrorSeverity" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; ErrorSeverity { Nullable&lt;int&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -245,6 +258,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.EstimatedCompletionTime" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EstimatedCompletionTime As Nullable(Of DateTime)" />
       <MemberSignature Language="F#" Value="member this.EstimatedCompletionTime : Nullable&lt;DateTime&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.EstimatedCompletionTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; EstimatedCompletionTime { Nullable&lt;DateTime&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -272,6 +286,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.IsCancellable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsCancellable As Nullable(Of Boolean)" />
       <MemberSignature Language="F#" Value="member this.IsCancellable : Nullable&lt;bool&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.IsCancellable" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsCancellable { Nullable&lt;bool&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -299,6 +314,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.IsUserError" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsUserError As Nullable(Of Boolean)" />
       <MemberSignature Language="F#" Value="member this.IsUserError : Nullable&lt;bool&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.IsUserError" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; IsUserError { Nullable&lt;bool&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -326,6 +342,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.Operation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Operation As String" />
       <MemberSignature Language="F#" Value="member this.Operation : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.Operation" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Operation { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Operation { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -353,6 +371,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.OperationFriendlyName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OperationFriendlyName As String" />
       <MemberSignature Language="F#" Value="member this.OperationFriendlyName : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.OperationFriendlyName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ OperationFriendlyName { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ OperationFriendlyName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -380,6 +400,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.PercentComplete" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PercentComplete As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="member this.PercentComplete : Nullable&lt;int&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.PercentComplete" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; PercentComplete { Nullable&lt;int&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -407,6 +428,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ServerName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerName As String" />
       <MemberSignature Language="F#" Value="member this.ServerName : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.ServerName" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ServerName { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ServerName { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -434,6 +457,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.StartTime" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As Nullable(Of DateTime)" />
       <MemberSignature Language="F#" Value="member this.StartTime : Nullable&lt;DateTime&gt;" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.StartTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; StartTime { Nullable&lt;DateTime&gt; get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>
@@ -461,6 +485,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As String" />
       <MemberSignature Language="F#" Value="member this.State : string" Usage="Microsoft.Azure.Management.Sql.Fluent.Models.ElasticPoolOperation.State" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ State { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ State { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Sql.Fluent</AssemblyName>

@@ -4,9 +4,12 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType" />
   <TypeSignature Language="VB.NET" Value="Public Class RecoveryType" />
   <TypeSignature Language="F#" Value="type RecoveryType = class" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RecoveryType abstract sealed" />
+  <TypeSignature Language="C++ CX" Value="public ref class RecoveryType abstract sealed" />
+  <TypeSignature Language="C++ WINRT" Value="class RecoveryType abstract sealed" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -14,7 +17,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            The enum for all supported types of recovery.
+            Defines values for RecoveryType.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -25,19 +28,18 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.AlternateLocation" />
       <MemberSignature Language="VB.NET" Value="Public Const AlternateLocation As String " />
       <MemberSignature Language="F#" Value="val mutable AlternateLocation : string" Usage="Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.AlternateLocation" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ AlternateLocation;" />
+      <MemberSignature Language="C++ WINRT" Value="std::wstring AlternateLocation;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            VM will be restored to a user specified resource name, resource
-            group (or cloud service).
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -47,18 +49,18 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.Invalid" />
       <MemberSignature Language="VB.NET" Value="Public Const Invalid As String " />
       <MemberSignature Language="F#" Value="val mutable Invalid : string" Usage="Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.Invalid" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ Invalid;" />
+      <MemberSignature Language="C++ WINRT" Value="std::wstring Invalid;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Invalid RecoveryType of RestoreRequest.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,19 +70,18 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.OriginalLocation" />
       <MemberSignature Language="VB.NET" Value="Public Const OriginalLocation As String " />
       <MemberSignature Language="F#" Value="val mutable OriginalLocation : string" Usage="Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.OriginalLocation" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ OriginalLocation;" />
+      <MemberSignature Language="C++ WINRT" Value="std::wstring OriginalLocation;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            VM will be restored to the same resource name, resource group (or
-            cloud service).
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,18 +91,18 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.RestoreDisks" />
       <MemberSignature Language="VB.NET" Value="Public Const RestoreDisks As String " />
       <MemberSignature Language="F#" Value="val mutable RestoreDisks : string" Usage="Microsoft.Azure.Management.RecoveryServices.Backup.Models.RecoveryType.RestoreDisks" />
+      <MemberSignature Language="C++ CLI" Value="public: System::String ^ RestoreDisks;" />
+      <MemberSignature Language="C++ WINRT" Value="std::wstring RestoreDisks;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.RecoveryServices.Backup</AssemblyName>
-        <AssemblyVersion>0.9.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Only the disks of the VM will be restored.
-            </summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

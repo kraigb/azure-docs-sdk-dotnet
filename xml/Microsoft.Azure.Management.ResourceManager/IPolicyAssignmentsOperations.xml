@@ -4,6 +4,9 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.IPolicyAssignmentsOperations" />
   <TypeSignature Language="VB.NET" Value="Public Interface IPolicyAssignmentsOperations" />
   <TypeSignature Language="F#" Value="type IPolicyAssignmentsOperations = interface" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPolicyAssignmentsOperations" />
+  <TypeSignature Language="C++ CX" Value="public interface class IPolicyAssignmentsOperations" />
+  <TypeSignature Language="C++ WINRT" Value="__interface IPolicyAssignmentsOperations" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
@@ -64,7 +67,7 @@
             '/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/{resource-provider-namespace}/{resource-type}/{resource-name}'
             for resources.
             </remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -72,6 +75,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -120,7 +126,7 @@
             when you apply a policy to a resource group that policy is assigned
             to all resources in the group.
             </remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -128,6 +134,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -172,7 +181,7 @@
             '/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/{resource-provider-namespace}/{resource-type}/{resource-name}'
             for resources.
             </remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -180,6 +189,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -220,7 +232,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -228,6 +240,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -272,7 +287,7 @@
             '/subscriptions/{subscription-id}/resourceGroups/{resource-group-name}/providers/{resource-provider-namespace}/{resource-type}/{resource-name}'
             for resources.
             </remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -280,6 +295,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -320,7 +338,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -328,6 +346,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -364,7 +385,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -372,6 +393,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -412,7 +436,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -420,6 +444,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -461,7 +488,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -469,6 +496,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -531,7 +561,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -539,6 +569,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -575,7 +608,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -583,6 +616,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>
@@ -619,7 +655,7 @@
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+        <exception cref="T:Microsoft.Rest.Azure.CloudException">
             Thrown when the operation returned an invalid status code
             </exception>
         <exception cref="T:Microsoft.Rest.SerializationException">
@@ -627,6 +663,9 @@
             </exception>
         <exception cref="T:Microsoft.Rest.ValidationException">
             Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:Microsoft.Azure.Management.ResourceManager.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
             </exception>
       </Docs>
     </Member>

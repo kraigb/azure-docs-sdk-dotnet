@@ -4,6 +4,8 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner" />
   <TypeSignature Language="VB.NET" Value="Public Class SiteExtensionInfoInner&#xA;Inherits ProxyOnlyResource" />
   <TypeSignature Language="F#" Value="type SiteExtensionInfoInner = class&#xA;    inherit ProxyOnlyResource" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SiteExtensionInfoInner : Microsoft::Azure::Management::AppService::Fluent::Models::ProxyOnlyResource" />
+  <TypeSignature Language="C++ WINRT" Value="[Windows::Foundation::Metadata::WebHostHidden]&#xA;class SiteExtensionInfoInner : Microsoft::Azure::Management::AppService::Fluent::Models::ProxyOnlyResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
     <AssemblyVersion>1.0.0.60</AssemblyVersion>
@@ -29,6 +31,9 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; SiteExtensionInfoInner();" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; SiteExtensionInfoInner();" />
+      <MemberSignature Language="C++ WINRT" Value=" SiteExtensionInfoInner();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -120,6 +125,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Authors" />
       <MemberSignature Language="VB.NET" Value="Public Property Authors As IList(Of String)" />
       <MemberSignature Language="F#" Value="member this.Authors : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Authors" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;System::String ^&gt; ^ Authors { System::Collections::Generic::IList&lt;System::String ^&gt; ^ get(); void set(System::Collections::Generic::IList&lt;System::String ^&gt; ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -147,6 +153,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Comment" />
       <MemberSignature Language="VB.NET" Value="Public Property Comment As String" />
       <MemberSignature Language="F#" Value="member this.Comment : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Comment" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Comment { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Comment { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -174,6 +182,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Description" />
       <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
       <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Description" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Description { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -201,6 +211,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.DownloadCount" />
       <MemberSignature Language="VB.NET" Value="Public Property DownloadCount As Nullable(Of Integer)" />
       <MemberSignature Language="F#" Value="member this.DownloadCount : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.DownloadCount" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;int&gt; DownloadCount { Nullable&lt;int&gt; get(); void set(Nullable&lt;int&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -228,6 +239,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ExtensionUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property ExtensionUrl As String" />
       <MemberSignature Language="F#" Value="member this.ExtensionUrl : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ExtensionUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ExtensionUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ExtensionUrl { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -255,6 +268,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.FeedUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property FeedUrl As String" />
       <MemberSignature Language="F#" Value="member this.FeedUrl : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.FeedUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FeedUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ FeedUrl { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -282,6 +297,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.IconUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property IconUrl As String" />
       <MemberSignature Language="F#" Value="member this.IconUrl : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.IconUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ IconUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ IconUrl { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -309,6 +326,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.InstallationArgs" />
       <MemberSignature Language="VB.NET" Value="Public Property InstallationArgs As String" />
       <MemberSignature Language="F#" Value="member this.InstallationArgs : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.InstallationArgs" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ InstallationArgs { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ InstallationArgs { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -336,6 +355,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.InstalledDateTime" />
       <MemberSignature Language="VB.NET" Value="Public Property InstalledDateTime As Nullable(Of DateTime)" />
       <MemberSignature Language="F#" Value="member this.InstalledDateTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.InstalledDateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; InstalledDateTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -363,6 +383,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LicenseUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property LicenseUrl As String" />
       <MemberSignature Language="F#" Value="member this.LicenseUrl : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LicenseUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LicenseUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ LicenseUrl { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -390,6 +412,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LocalIsLatestVersion" />
       <MemberSignature Language="VB.NET" Value="Public Property LocalIsLatestVersion As Nullable(Of Boolean)" />
       <MemberSignature Language="F#" Value="member this.LocalIsLatestVersion : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LocalIsLatestVersion" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;bool&gt; LocalIsLatestVersion { Nullable&lt;bool&gt; get(); void set(Nullable&lt;bool&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -419,6 +442,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LocalPath" />
       <MemberSignature Language="VB.NET" Value="Public Property LocalPath As String" />
       <MemberSignature Language="F#" Value="member this.LocalPath : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.LocalPath" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ LocalPath { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ LocalPath { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -446,6 +471,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ProjectUrl" />
       <MemberSignature Language="VB.NET" Value="Public Property ProjectUrl As String" />
       <MemberSignature Language="F#" Value="member this.ProjectUrl : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ProjectUrl" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProjectUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ProjectUrl { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -473,6 +500,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ProvisioningState" />
       <MemberSignature Language="VB.NET" Value="Public Property ProvisioningState As String" />
       <MemberSignature Language="F#" Value="member this.ProvisioningState : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.ProvisioningState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ProvisioningState { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ ProvisioningState { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -500,6 +529,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.PublishedDateTime" />
       <MemberSignature Language="VB.NET" Value="Public Property PublishedDateTime As Nullable(Of DateTime)" />
       <MemberSignature Language="F#" Value="member this.PublishedDateTime : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.PublishedDateTime" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;DateTime&gt; PublishedDateTime { Nullable&lt;DateTime&gt; get(); void set(Nullable&lt;DateTime&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -527,6 +557,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.SiteExtensionInfoId" />
       <MemberSignature Language="VB.NET" Value="Public Property SiteExtensionInfoId As String" />
       <MemberSignature Language="F#" Value="member this.SiteExtensionInfoId : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.SiteExtensionInfoId" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ SiteExtensionInfoId { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ SiteExtensionInfoId { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -554,6 +586,7 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.SiteExtensionInfoType" />
       <MemberSignature Language="VB.NET" Value="Public Property SiteExtensionInfoType As Nullable(Of SiteExtensionType)" />
       <MemberSignature Language="F#" Value="member this.SiteExtensionInfoType : Nullable&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionType&gt; with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.SiteExtensionInfoType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Nullable&lt;Microsoft::Azure::Management::AppService::Fluent::Models::SiteExtensionType&gt; SiteExtensionInfoType { Nullable&lt;Microsoft::Azure::Management::AppService::Fluent::Models::SiteExtensionType&gt; get(); void set(Nullable&lt;Microsoft::Azure::Management::AppService::Fluent::Models::SiteExtensionType&gt; value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -582,6 +615,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Summary" />
       <MemberSignature Language="VB.NET" Value="Public Property Summary As String" />
       <MemberSignature Language="F#" Value="member this.Summary : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Summary" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Summary { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Summary { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -609,6 +644,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Title" />
       <MemberSignature Language="VB.NET" Value="Public Property Title As String" />
       <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Title" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Title { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Title { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
@@ -636,6 +673,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Version" />
       <MemberSignature Language="VB.NET" Value="Public Property Version As String" />
       <MemberSignature Language="F#" Value="member this.Version : string with get, set" Usage="Microsoft.Azure.Management.AppService.Fluent.Models.SiteExtensionInfoInner.Version" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Version { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Version { Platform::String ^ get(); void set(Platform::String ^ value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>

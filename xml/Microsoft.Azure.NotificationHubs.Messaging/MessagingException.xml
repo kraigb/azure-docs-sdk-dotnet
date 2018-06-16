@@ -4,8 +4,10 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.NotificationHubs.Messaging.MessagingException" />
   <TypeSignature Language="VB.NET" Value="Public Class MessagingException&#xA;Inherits Exception" />
   <TypeSignature Language="F#" Value="type MessagingException = class&#xA;    inherit Exception" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MessagingException : Exception" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -23,9 +25,13 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException : string -&gt; Microsoft.Azure.NotificationHubs.Messaging.MessagingException" Usage="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException message" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessagingException(System::String ^ message);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; MessagingException(Platform::String ^ message);" />
+      <MemberSignature Language="C++ WINRT" Value=" MessagingException(std::wstring const &amp; message);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -45,9 +51,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (info As SerializationInfo, context As StreamingContext)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; Microsoft.Azure.NotificationHubs.Messaging.MessagingException" Usage="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException (info, context)" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; MessagingException(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -67,9 +75,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.#ctor(System.String,System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException : string * Exception -&gt; Microsoft.Azure.NotificationHubs.Messaging.MessagingException" Usage="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException (message, innerException)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessagingException(System::String ^ message, Exception ^ innerException);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -91,9 +101,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.#ctor(System.String,System.Boolean,System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, isTransientError As Boolean, innerException As Exception)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException : string * bool * Exception -&gt; Microsoft.Azure.NotificationHubs.Messaging.MessagingException" Usage="new Microsoft.Azure.NotificationHubs.Messaging.MessagingException (message, isTransientError, innerException)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; MessagingException(System::String ^ message, bool isTransientError, Exception ^ innerException);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -117,9 +129,11 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Data" />
       <MemberSignature Language="VB.NET" Value="Public Overrides NotOverridable ReadOnly Property Data As IDictionary" />
       <MemberSignature Language="F#" Value="member this.Data : System.Collections.IDictionary" Usage="Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Data" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::IDictionary ^ Data { System::Collections::IDictionary ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,7 +143,7 @@
         <summary>
             Gets a collection of key/value pairs that provide additional user-defined information about the exception.
             </summary>
-        <value>To be added.</value>
+        <value>The data associated with the exception.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,9 +153,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Detail" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Detail As MessagingExceptionDetail" />
       <MemberSignature Language="F#" Value="member this.Detail : Microsoft.Azure.NotificationHubs.Messaging.MessagingExceptionDetail" Usage="Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Detail" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Azure::NotificationHubs::Messaging::MessagingExceptionDetail ^ Detail { Microsoft::Azure::NotificationHubs::Messaging::MessagingExceptionDetail ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Microsoft::Azure::NotificationHubs::Messaging::MessagingExceptionDetail ^ Detail { Microsoft::Azure::NotificationHubs::Messaging::MessagingExceptionDetail ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -151,7 +168,7 @@
         <summary>
             Details about the cause of the exception
             </summary>
-        <value>To be added.</value>
+        <value>The detail information of the messaging exception.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -161,9 +178,11 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub GetObjectData (info As SerializationInfo, context As StreamingContext)" />
       <MemberSignature Language="F#" Value="override this.GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit" Usage="messagingException.GetObjectData (info, context)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void GetObjectData(System::Runtime::Serialization::SerializationInfo ^ info, System::Runtime::Serialization::StreamingContext context);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -188,9 +207,12 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.IsTransient" />
       <MemberSignature Language="VB.NET" Value="Public Property IsTransient As Boolean" />
       <MemberSignature Language="F#" Value="member this.IsTransient : bool with get, set" Usage="Microsoft.Azure.NotificationHubs.Messaging.MessagingException.IsTransient" />
+      <MemberSignature Language="C++ CLI" Value="public:  property bool IsTransient {  public:&#xA;bool get(); protected:&#xA; void set(bool value); };" />
+      <MemberSignature Language="C++ CX" Value="public:  property bool IsTransient {  public:&#xA;bool get(); protected:&#xA; void set(bool value); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -202,7 +224,7 @@
             getting a true from this property implies that user can retry the operation that 
             generated the exception without additional intervention. 
             </summary>
-        <value>To be added.</value>
+        <value>true if the exception is transient; otherwise, false.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -212,9 +234,11 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Timestamp" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Timestamp As DateTime" />
       <MemberSignature Language="F#" Value="member this.Timestamp : DateTime" Usage="Microsoft.Azure.NotificationHubs.Messaging.MessagingException.Timestamp" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property DateTime Timestamp { DateTime get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -224,7 +248,7 @@
         <summary>
             UTC timestamp of the exception
             </summary>
-        <value>To be added.</value>
+        <value>The time at which the messaging exception occurred.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

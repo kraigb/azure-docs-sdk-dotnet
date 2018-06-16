@@ -4,9 +4,11 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.KeyVault.RsaKey" />
   <TypeSignature Language="VB.NET" Value="Public Class RsaKey&#xA;Implements IDisposable, IKey" />
   <TypeSignature Language="F#" Value="type RsaKey = class&#xA;    interface IKey&#xA;    interface IDisposable" />
+  <TypeSignature Language="C++ CLI" Value="public ref class RsaKey : IDisposable, Microsoft::Azure::KeyVault::Core::IKey" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -20,7 +22,9 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            An RSA key.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,14 +33,20 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RsaKey();" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; RsaKey();" />
+      <MemberSignature Language="C++ WINRT" Value=" RsaKey();" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Constructor, creates a 2048 bit key with a GUID identifier.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -46,17 +56,23 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (kid As String)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.RsaKey : string -&gt; Microsoft.Azure.KeyVault.RsaKey" Usage="new Microsoft.Azure.KeyVault.RsaKey kid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RsaKey(System::String ^ kid);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; RsaKey(Platform::String ^ kid);" />
+      <MemberSignature Language="C++ WINRT" Value=" RsaKey(std::wstring const &amp; kid);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="kid" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="kid">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="kid">The key identifier to use</param>
+        <summary>
+            Constructor, creates a 2048 bit RSA key.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -66,19 +82,25 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (kid As String, keySize As Integer)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.RsaKey : string * int -&gt; Microsoft.Azure.KeyVault.RsaKey" Usage="new Microsoft.Azure.KeyVault.RsaKey (kid, keySize)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RsaKey(System::String ^ kid, int keySize);" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; RsaKey(Platform::String ^ kid, int keySize);" />
+      <MemberSignature Language="C++ WINRT" Value=" RsaKey(std::wstring const &amp; kid, int keySize);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="kid" Type="System.String" />
         <Parameter Name="keySize" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="kid">To be added.</param>
-        <param name="keySize">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="kid">The key identifier to use</param>
+        <param name="keySize">The size of the key</param>
+        <summary>
+            Constructor.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -88,20 +110,27 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Security.Cryptography.RSA)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (kid As String, csp As RSA)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.RsaKey : string * System.Security.Cryptography.RSA -&gt; Microsoft.Azure.KeyVault.RsaKey" Usage="new Microsoft.Azure.KeyVault.RsaKey (kid, csp)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RsaKey(System::String ^ kid, System::Security::Cryptography::RSA ^ csp);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="kid" Type="System.String" />
         <Parameter Name="csp" Type="System.Security.Cryptography.RSA" />
       </Parameters>
       <Docs>
-        <param name="kid">To be added.</param>
-        <param name="csp">To be added.</param>
-        <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
+        <param name="kid">The key identifier to use</param>
+        <param name="csp">The RSA object for the key</param>
+        <summary>
+            Constructor.
+            </summary>
+        <remarks>The RSA object is IDisposable, this class will hold a
+            reference to the RSA object but will not dispose it, the caller
+            of this constructor is responsible for the lifetime of this
+            parameter.</remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -110,19 +139,23 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.#ctor(System.String,System.Security.Cryptography.RSAParameters)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (kid As String, keyParameters As RSAParameters)" />
       <MemberSignature Language="F#" Value="new Microsoft.Azure.KeyVault.RsaKey : string * System.Security.Cryptography.RSAParameters -&gt; Microsoft.Azure.KeyVault.RsaKey" Usage="new Microsoft.Azure.KeyVault.RsaKey (kid, keyParameters)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; RsaKey(System::String ^ kid, System::Security::Cryptography::RSAParameters keyParameters);" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="kid" Type="System.String" />
         <Parameter Name="keyParameters" Type="System.Security.Cryptography.RSAParameters" />
       </Parameters>
       <Docs>
-        <param name="kid">To be added.</param>
-        <param name="keyParameters">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="kid">The key identifier to use</param>
+        <param name="keyParameters">The RSA parameters for the key</param>
+        <summary>
+            Constructor
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -139,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
@@ -169,6 +203,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.RsaKey.DefaultEncryptionAlgorithm" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultEncryptionAlgorithm As String" />
       <MemberSignature Language="F#" Value="member this.DefaultEncryptionAlgorithm : string" Usage="Microsoft.Azure.KeyVault.RsaKey.DefaultEncryptionAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultEncryptionAlgorithm { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DefaultEncryptionAlgorithm { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Azure.KeyVault.Core.IKey.DefaultEncryptionAlgorithm</InterfaceMember>
@@ -176,6 +212,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -192,6 +229,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.RsaKey.DefaultKeyWrapAlgorithm" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultKeyWrapAlgorithm As String" />
       <MemberSignature Language="F#" Value="member this.DefaultKeyWrapAlgorithm : string" Usage="Microsoft.Azure.KeyVault.RsaKey.DefaultKeyWrapAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultKeyWrapAlgorithm { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DefaultKeyWrapAlgorithm { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Azure.KeyVault.Core.IKey.DefaultKeyWrapAlgorithm</InterfaceMember>
@@ -199,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -215,6 +255,8 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.RsaKey.DefaultSignatureAlgorithm" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultSignatureAlgorithm As String" />
       <MemberSignature Language="F#" Value="member this.DefaultSignatureAlgorithm : string" Usage="Microsoft.Azure.KeyVault.RsaKey.DefaultSignatureAlgorithm" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DefaultSignatureAlgorithm { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ DefaultSignatureAlgorithm { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Azure.KeyVault.Core.IKey.DefaultSignatureAlgorithm</InterfaceMember>
@@ -222,6 +264,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -238,6 +281,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.Dispose" />
       <MemberSignature Language="VB.NET" Value="Public Sub Dispose ()" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="rsaKey.Dispose " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Dispose();" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; void Dispose();" />
+      <MemberSignature Language="C++ WINRT" Value="void Dispose();" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
@@ -245,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -261,10 +308,14 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.KeyVault.RsaKey.Dispose(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub Dispose (disposing As Boolean)" />
       <MemberSignature Language="F#" Value="abstract member Dispose : bool -&gt; unit&#xA;override this.Dispose : bool -&gt; unit" Usage="rsaKey.Dispose disposing" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void Dispose(bool disposing);" />
+      <MemberSignature Language="C++ CX" Value="protected:&#xA; virtual void Dispose(bool disposing);" />
+      <MemberSignature Language="C++ WINRT" Value=" virtual void Dispose(bool disposing);" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -291,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Tuple&lt;System.Byte[],System.Byte[],System.String&gt;&gt;</ReturnType>
@@ -319,10 +371,13 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.RsaKey.KeySize1024" />
       <MemberSignature Language="VB.NET" Value="Public Const KeySize1024 As Integer  = 1024" />
       <MemberSignature Language="F#" Value="val mutable KeySize1024 : int" Usage="Microsoft.Azure.KeyVault.RsaKey.KeySize1024" />
+      <MemberSignature Language="C++ CLI" Value="public: int KeySize1024 = 1024;" />
+      <MemberSignature Language="C++ WINRT" Value="int KeySize1024 = 1024;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -339,10 +394,13 @@
       <MemberSignature Language="DocId" Value="F:Microsoft.Azure.KeyVault.RsaKey.KeySize2048" />
       <MemberSignature Language="VB.NET" Value="Public Const KeySize2048 As Integer  = 2048" />
       <MemberSignature Language="F#" Value="val mutable KeySize2048 : int" Usage="Microsoft.Azure.KeyVault.RsaKey.KeySize2048" />
+      <MemberSignature Language="C++ CLI" Value="public: int KeySize2048 = 2048;" />
+      <MemberSignature Language="C++ WINRT" Value="int KeySize2048 = 2048;" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -359,16 +417,21 @@
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.KeyVault.RsaKey.Kid" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Kid As String" />
       <MemberSignature Language="F#" Value="member this.Kid : string" Usage="Microsoft.Azure.KeyVault.RsaKey.Kid" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Kid { System::String ^ get(); };" />
+      <MemberSignature Language="C++ CX" Value="public:&#xA; property Platform::String ^ Kid { Platform::String ^ get(); };" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Key Identifier
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -386,6 +449,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Tuple&lt;System.Byte[],System.String&gt;&gt;</ReturnType>
@@ -417,6 +481,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Byte[]&gt;</ReturnType>
@@ -448,6 +513,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -481,6 +547,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.KeyVault.Cryptography</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Tuple&lt;System.Byte[],System.String&gt;&gt;</ReturnType>
