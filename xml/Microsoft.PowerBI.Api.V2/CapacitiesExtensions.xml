@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type CapacitiesExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.12.18114</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,6 +27,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -49,13 +51,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.CapacitiesExtensions/&lt;GetCapacitiesAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListCapacity&gt;</ReturnType>
       </ReturnValue>

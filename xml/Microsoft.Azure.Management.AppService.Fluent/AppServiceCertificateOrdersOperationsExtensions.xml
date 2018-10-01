@@ -29,11 +29,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__20))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;</ReturnType>
       </ReturnValue>
@@ -79,11 +74,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;BeginCreateOrUpdateCertificateAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -133,11 +123,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__4))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;</ReturnType>
       </ReturnValue>
@@ -183,11 +168,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;CreateOrUpdateCertificateAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -237,11 +217,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;DeleteAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -283,11 +258,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;DeleteCertificateAsync&gt;d__10))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -333,11 +303,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;</ReturnType>
       </ReturnValue>
@@ -379,11 +344,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;GetCertificateAsync&gt;d__8))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -429,11 +389,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListAsync&gt;d__0))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -467,11 +422,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListByResourceGroupAsync&gt;d__2))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -509,11 +459,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -551,11 +496,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListCertificatesAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -597,11 +537,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListCertificatesNextAsync&gt;d__24))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -639,11 +574,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ListNextAsync&gt;d__22))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -672,20 +602,15 @@
       </Docs>
     </Member>
     <Member MemberName="ReissueAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ReissueAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequestInner reissueCertificateOrderRequest, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ReissueAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequestInner reissueCertificateOrderRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.ReissueAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequestInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member ReissueAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequestInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.ReissueAsync (operations, resourceGroupName, certificateOrderName, reissueCertificateOrderRequest, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task ReissueAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequest reissueCertificateOrderRequest, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task ReissueAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequest reissueCertificateOrderRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.ReissueAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequest,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ReissueAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequest * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.ReissueAsync (operations, resourceGroupName, certificateOrderName, reissueCertificateOrderRequest, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ReissueAsync&gt;d__12))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -693,7 +618,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations" RefType="this" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="certificateOrderName" Type="System.String" />
-        <Parameter Name="reissueCertificateOrderRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequestInner" />
+        <Parameter Name="reissueCertificateOrderRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.ReissueCertificateOrderRequest" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -722,20 +647,15 @@
       </Docs>
     </Member>
     <Member MemberName="RenewAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RenewAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequestInner renewCertificateOrderRequest, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RenewAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequestInner renewCertificateOrderRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RenewAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequestInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member RenewAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequestInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RenewAsync (operations, resourceGroupName, certificateOrderName, renewCertificateOrderRequest, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task RenewAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequest renewCertificateOrderRequest, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task RenewAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequest renewCertificateOrderRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RenewAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequest,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member RenewAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequest * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RenewAsync (operations, resourceGroupName, certificateOrderName, renewCertificateOrderRequest, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;RenewAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -743,7 +663,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations" RefType="this" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="certificateOrderName" Type="System.String" />
-        <Parameter Name="renewCertificateOrderRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequestInner" />
+        <Parameter Name="renewCertificateOrderRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.RenewCertificateOrderRequest" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -781,11 +701,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ResendEmailAsync&gt;d__14))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -827,11 +742,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ResendRequestEmailsAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -877,11 +787,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;RetrieveCertificateActionsAsync&gt;d__18))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CertificateOrderActionInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -923,11 +828,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;RetrieveCertificateEmailHistoryAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CertificateEmailInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -960,20 +860,15 @@
       </Docs>
     </Member>
     <Member MemberName="RetrieveSiteSealAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt; RetrieveSiteSealAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequestInner siteSealRequest, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt; RetrieveSiteSealAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequestInner siteSealRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSealAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequestInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member RetrieveSiteSealAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequestInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSealAsync (operations, resourceGroupName, certificateOrderName, siteSealRequest, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt; RetrieveSiteSealAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequest siteSealRequest, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt; RetrieveSiteSealAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequest siteSealRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSealAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequest,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member RetrieveSiteSealAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequest * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.RetrieveSiteSealAsync (operations, resourceGroupName, certificateOrderName, siteSealRequest, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;RetrieveSiteSealAsync&gt;d__16))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealInner&gt;</ReturnType>
       </ReturnValue>
@@ -981,7 +876,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations" RefType="this" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="certificateOrderName" Type="System.String" />
-        <Parameter Name="siteSealRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequestInner" />
+        <Parameter Name="siteSealRequest" Type="Microsoft.Azure.Management.AppService.Fluent.Models.SiteSealRequest" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -1010,20 +905,15 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt; UpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResourceInner certificateDistinguishedName, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt; UpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResourceInner certificateDistinguishedName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResourceInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member UpdateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResourceInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateAsync (operations, resourceGroupName, certificateOrderName, certificateDistinguishedName, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt; UpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResource certificateDistinguishedName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt; UpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResource certificateDistinguishedName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateAsync (operations, resourceGroupName, certificateOrderName, certificateDistinguishedName, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;UpdateAsync&gt;d__6))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderInner&gt;</ReturnType>
       </ReturnValue>
@@ -1031,7 +921,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations" RefType="this" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="certificateOrderName" Type="System.String" />
-        <Parameter Name="certificateDistinguishedName" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResourceInner" />
+        <Parameter Name="certificateDistinguishedName" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateOrderPatchResource" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -1060,20 +950,15 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateCertificateAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt; UpdateCertificateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResourceInner keyVaultCertificate, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt; UpdateCertificateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResourceInner keyVaultCertificate, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateCertificateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResourceInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member UpdateCertificateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResourceInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateCertificateAsync (operations, resourceGroupName, certificateOrderName, name, keyVaultCertificate, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt; UpdateCertificateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResource keyVaultCertificate, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt; UpdateCertificateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations operations, string resourceGroupName, string certificateOrderName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResource keyVaultCertificate, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateCertificateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations,System.String,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateCertificateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceCertificateOrdersOperations * string * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions.UpdateCertificateAsync (operations, resourceGroupName, certificateOrderName, name, keyVaultCertificate, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;UpdateCertificateAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificateResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -1082,7 +967,7 @@
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="certificateOrderName" Type="System.String" />
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="keyVaultCertificate" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResourceInner" />
+        <Parameter Name="keyVaultCertificate" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceCertificatePatchResource" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -1123,11 +1008,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;ValidatePurchaseInformationAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1165,11 +1045,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceCertificateOrdersOperationsExtensions/&lt;VerifyDomainOwnershipAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>

@@ -94,8 +94,8 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="userId" Type="System.String" />
-        <Parameter Name="providerName" Type="System.String&amp;" RefType="out" />
-        <Parameter Name="providerUserId" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="providerName" Type="System.String" RefType="out" />
+        <Parameter Name="providerUserId" Type="System.String" RefType="out" />
       </Parameters>
       <Docs>
         <param name="userId">To be added.</param>
@@ -129,7 +129,7 @@
         <Parameter Name="signingKey" Type="System.String" />
         <Parameter Name="validAudiences" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
         <Parameter Name="validIssuers" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />
-        <Parameter Name="claimsPrincipal" Type="System.Security.Claims.ClaimsPrincipal&amp;" RefType="out" />
+        <Parameter Name="claimsPrincipal" Type="System.Security.Claims.ClaimsPrincipal" RefType="out" />
       </Parameters>
       <Docs>
         <param name="token">To be added.</param>
@@ -166,7 +166,7 @@
         <Parameter Name="validationParameters" Type="System.IdentityModel.Tokens.TokenValidationParameters" />
         <Parameter Name="tokenValue" Type="System.String" />
         <Parameter Name="secretKey" Type="System.String" />
-        <Parameter Name="claimsPrincipal" Type="System.Security.Claims.ClaimsPrincipal&amp;" RefType="out" />
+        <Parameter Name="claimsPrincipal" Type="System.Security.Claims.ClaimsPrincipal" RefType="out" />
       </Parameters>
       <Docs>
         <param name="validationParameters">To be added.</param>

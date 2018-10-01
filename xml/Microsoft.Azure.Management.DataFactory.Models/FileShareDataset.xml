@@ -6,8 +6,8 @@
   <TypeSignature Language="F#" Value="type FileShareDataset = class&#xA;    inherit Dataset" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.Dataset</BaseTypeName>
@@ -36,8 +36,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,16 +48,15 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public FileShareDataset (Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string description = null, object structure = null, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; parameters = null, System.Collections.Generic.IList&lt;object&gt; annotations = null, object folderPath = null, object fileName = null, Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat format = null, object fileFilter = null, Microsoft.Azure.Management.DataFactory.Models.DatasetCompression compression = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, object structure, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; parameters, class System.Collections.Generic.IList`1&lt;object&gt; annotations, object folderPath, object fileName, class Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat format, object fileFilter, class Microsoft.Azure.Management.DataFactory.Models.DatasetCompression compression) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.FileShareDataset.#ctor(Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.Object,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification},System.Collections.Generic.IList{System.Object},System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat,System.Object,Microsoft.Azure.Management.DataFactory.Models.DatasetCompression)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (linkedServiceName As LinkedServiceReference, Optional additionalProperties As IDictionary(Of String, Object) = null, Optional description As String = null, Optional structure As Object = null, Optional parameters As IDictionary(Of String, ParameterSpecification) = null, Optional annotations As IList(Of Object) = null, Optional folderPath As Object = null, Optional fileName As Object = null, Optional format As DatasetStorageFormat = null, Optional fileFilter As Object = null, Optional compression As DatasetCompression = null)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.FileShareDataset : Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference * System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * obj * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; * System.Collections.Generic.IList&lt;obj&gt; * obj * obj * Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat * obj * Microsoft.Azure.Management.DataFactory.Models.DatasetCompression -&gt; Microsoft.Azure.Management.DataFactory.Models.FileShareDataset" Usage="new Microsoft.Azure.Management.DataFactory.Models.FileShareDataset (linkedServiceName, additionalProperties, description, structure, parameters, annotations, folderPath, fileName, format, fileFilter, compression)" />
+      <MemberSignature Language="C#" Value="public FileShareDataset (Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string description = null, object structure = null, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; parameters = null, System.Collections.Generic.IList&lt;object&gt; annotations = null, Microsoft.Azure.Management.DataFactory.Models.DatasetFolder folder = null, object folderPath = null, object fileName = null, Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat format = null, object fileFilter = null, Microsoft.Azure.Management.DataFactory.Models.DatasetCompression compression = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference linkedServiceName, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, object structure, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; parameters, class System.Collections.Generic.IList`1&lt;object&gt; annotations, class Microsoft.Azure.Management.DataFactory.Models.DatasetFolder folder, object folderPath, object fileName, class Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat format, object fileFilter, class Microsoft.Azure.Management.DataFactory.Models.DatasetCompression compression) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.FileShareDataset.#ctor(Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.Object,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification},System.Collections.Generic.IList{System.Object},Microsoft.Azure.Management.DataFactory.Models.DatasetFolder,System.Object,System.Object,Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat,System.Object,Microsoft.Azure.Management.DataFactory.Models.DatasetCompression)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (linkedServiceName As LinkedServiceReference, Optional additionalProperties As IDictionary(Of String, Object) = null, Optional description As String = null, Optional structure As Object = null, Optional parameters As IDictionary(Of String, ParameterSpecification) = null, Optional annotations As IList(Of Object) = null, Optional folder As DatasetFolder = null, Optional folderPath As Object = null, Optional fileName As Object = null, Optional format As DatasetStorageFormat = null, Optional fileFilter As Object = null, Optional compression As DatasetCompression = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.FileShareDataset : Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference * System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * obj * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt; * System.Collections.Generic.IList&lt;obj&gt; * Microsoft.Azure.Management.DataFactory.Models.DatasetFolder * obj * obj * Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat * obj * Microsoft.Azure.Management.DataFactory.Models.DatasetCompression -&gt; Microsoft.Azure.Management.DataFactory.Models.FileShareDataset" Usage="new Microsoft.Azure.Management.DataFactory.Models.FileShareDataset (linkedServiceName, additionalProperties, description, structure, parameters, annotations, folder, folderPath, fileName, format, fileFilter, compression)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="linkedServiceName" Type="Microsoft.Azure.Management.DataFactory.Models.LinkedServiceReference" />
@@ -66,6 +65,7 @@
         <Parameter Name="structure" Type="System.Object" />
         <Parameter Name="parameters" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Azure.Management.DataFactory.Models.ParameterSpecification&gt;" />
         <Parameter Name="annotations" Type="System.Collections.Generic.IList&lt;System.Object&gt;" />
+        <Parameter Name="folder" Type="Microsoft.Azure.Management.DataFactory.Models.DatasetFolder" />
         <Parameter Name="folderPath" Type="System.Object" />
         <Parameter Name="fileName" Type="System.Object" />
         <Parameter Name="format" Type="Microsoft.Azure.Management.DataFactory.Models.DatasetStorageFormat" />
@@ -83,6 +83,8 @@
         <param name="parameters">Parameters for dataset.</param>
         <param name="annotations">List of tags that can be used for
             describing the Dataset.</param>
+        <param name="folder">The folder that this Dataset is in. If not
+            specified, Dataset will appear at the root level.</param>
         <param name="folderPath">The path of the on-premises file system.
             Type: string (or Expression with resultType string).</param>
         <param name="fileName">The name of the on-premises file system.
@@ -108,8 +110,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -136,8 +138,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -166,8 +168,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -195,8 +197,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -224,8 +226,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -252,8 +254,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

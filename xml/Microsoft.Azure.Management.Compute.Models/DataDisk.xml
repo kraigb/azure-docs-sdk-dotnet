@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type DataDisk = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>20.0.0.0</AssemblyVersion>
+    <AssemblyVersion>21.0.0.0</AssemblyVersion>
+    <AssemblyVersion>22.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,7 +28,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,7 +48,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="lun" Type="System.Int32" />
@@ -89,7 +91,7 @@
         <param name="writeAcceleratorEnabled">Specifies whether
             writeAccelerator should be enabled or disabled on the disk.</param>
         <param name="diskSizeGB">Specifies the size of an empty data disk
-            in gigabytes. This element can be used to overwrite the name of the
+            in gigabytes. This element can be used to overwrite the size of the
             disk in a virtual machine image. &lt;br&gt;&lt;br&gt; This value
             cannot be larger than 1023 GB</param>
         <param name="managedDisk">The managed disk parameters.</param>
@@ -108,7 +110,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -142,7 +145,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -178,7 +182,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -191,7 +196,7 @@
       <Docs>
         <summary>
             Gets or sets specifies the size of an empty data disk in gigabytes.
-            This element can be used to overwrite the name of the disk in a
+            This element can be used to overwrite the size of the disk in a
             virtual machine image. &amp;lt;br&amp;gt;&amp;lt;br&amp;gt; This
             value cannot be larger than 1023 GB
             </summary>
@@ -208,7 +213,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -238,7 +244,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -267,7 +274,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -294,7 +302,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -321,7 +330,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -346,7 +356,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -373,7 +384,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">

@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type Imports = class&#xA;    interface IServiceOperations&lt;PowerBIClient&gt;&#xA;    interface IImports" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.12.18114</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -33,6 +34,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -53,6 +55,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -75,13 +78,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;CreateTemporaryUploadLocationInGroupWithHttpMessagesAsync&gt;d__27))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.TemporaryUploadLocation&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -110,13 +109,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;CreateTemporaryUploadLocationWithHttpMessagesAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.TemporaryUploadLocation&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -143,13 +138,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;GetImportByIdInGroupWithHttpMessagesAsync&gt;d__26))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -180,13 +171,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;GetImportByIdWithHttpMessagesAsync&gt;d__22))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -215,13 +202,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;GetImportsInGroupWithHttpMessagesAsync&gt;d__24))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListImport&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -250,13 +233,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;GetImportsWithHttpMessagesAsync&gt;d__20))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListImport&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -283,13 +262,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;PostImportFileWithHttpMessage&gt;d__6))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -322,13 +297,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;PostImportFileWithHttpMessage&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -363,13 +334,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;PostImportInGroupWithHttpMessagesAsync&gt;d__25))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -402,6 +369,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -424,13 +392,9 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.Imports/&lt;PostImportWithHttpMessagesAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.HttpOperationResponse&lt;Microsoft.PowerBI.Api.V2.Models.Import&gt;&gt;</ReturnType>
       </ReturnValue>

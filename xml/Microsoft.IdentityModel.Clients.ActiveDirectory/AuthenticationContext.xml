@@ -1,12 +1,13 @@
 ﻿<Type Name="AuthenticationContext" FullName="Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext">
   <TypeSignature Language="C#" Value="public sealed class AuthenticationContext" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit AuthenticationContext extends System.Object" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AuthenticationContext extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class AuthenticationContext" />
   <TypeSignature Language="F#" Value="type AuthenticationContext = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+    <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="authority" Type="System.String" />
@@ -50,7 +52,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="authority" Type="System.String" />
@@ -75,7 +78,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="authority" Type="System.String" />
@@ -99,7 +103,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="authority" Type="System.String" />
@@ -126,13 +131,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireDeviceCodeAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt;</ReturnType>
       </ReturnValue>
@@ -159,13 +160,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireDeviceCodeAsync&gt;d__22))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.DeviceCodeResult&gt;</ReturnType>
       </ReturnValue>
@@ -193,13 +190,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__59))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -225,13 +218,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__60))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -258,13 +247,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__57))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -290,13 +275,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__55))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -324,13 +305,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__53))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -358,13 +335,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__54))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -393,13 +366,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__58))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -417,7 +386,8 @@
             This saves the application admin from the need to explicitly manage the certificate rollover
             (either via portal or powershell/CLI operation)</param>
         <summary>
-            Acquires a security token from the authority while enabling simplified Azure AD certificate roll-over.
+            Acquire a security token for the application (without a user) from the authority while enabling simplified Azure AD certificate roll over. 
+            For more details, see https://aka.ms/adal-net-client-credentials
             IMPORTANT: this flow isn’t enabled on the service at the time of this SDK release (ADAL.Net 3.19).
             </summary>
         <returns>It contains Access Token and the Access Token's expiration time. Refresh Token property will be null for this overload.</returns>
@@ -432,13 +402,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__56))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -459,6 +425,43 @@
       </Docs>
     </Member>
     <Member MemberName="AcquireTokenAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertion userAssertion, bool sendX5c);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, class Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate clientCertificate, class Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertion userAssertion, bool sendX5c) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate,Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertion,System.Boolean)" />
+      <MemberSignature Language="F#" Value="member this.AcquireTokenAsync : string * Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate * Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertion * bool -&gt; System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;" Usage="authenticationContext.AcquireTokenAsync (resource, clientCertificate, userAssertion, sendX5c)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="resource" Type="System.String" />
+        <Parameter Name="clientCertificate" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.IClientAssertionCertificate" />
+        <Parameter Name="userAssertion" Type="Microsoft.IdentityModel.Clients.ActiveDirectory.UserAssertion" />
+        <Parameter Name="sendX5c" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="resource">Identifier of the target resource that is the recipient of the requested token.</param>
+        <param name="clientCertificate">The client certificate to use for token acquisition.</param>
+        <param name="userAssertion">The user assertion (token) to use for token acquisition.</param>
+        <param name="sendX5c">This parameter enables application developers to achieve easy certificates roll-over
+            in Azure AD: setting this parameter to true will send the public certificate to Azure AD
+            along with the token request, so that Azure AD can use it to validate the subject name based on a trusted issuer policy.
+            This saves the application admin from the need to explicitly manage the certificate rollover
+            (either via portal or powershell/CLI operation)</param>
+        <summary>
+            Acquires an access token from the authority on behalf of a user. It requires using a user token previously received.
+            For more details, see https://aka.ms/adal-net-on-behalf-of
+            </summary>
+        <returns>It contains Access Token and the Access Token's expiration time.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcquireTokenAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync (string resource, string clientId, Uri redirectUri, Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt; AcquireTokenAsync(string resource, string clientId, class System.Uri redirectUri, class Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters parameters) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenAsync(System.String,System.String,System.Uri,Microsoft.IdentityModel.Clients.ActiveDirectory.IPlatformParameters)" />
@@ -467,13 +470,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__28))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -504,13 +503,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__29))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -544,13 +539,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__30))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -586,13 +577,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenAsync&gt;d__24))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -628,13 +615,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__48))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -649,7 +632,7 @@
         <param name="clientAssertion">The client assertion to use for token acquisition.</param>
         <summary>
             Acquires security token from the authority using an authorization code previously received.
-            This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
+            This method does not lookup the token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
             </summary>
         <returns>It contains Access Token, its expiration time, user information.</returns>
         <remarks>To be added.</remarks>
@@ -663,13 +646,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__46))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -699,13 +678,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__50))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -720,7 +695,7 @@
         <param name="clientCertificate">The client certificate to use for token acquisition.</param>
         <summary>
             Acquires security token from the authority using an authorization code previously received.
-            This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
+            This method does not lookup the token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
             </summary>
         <returns>It contains Access Token, its expiration time, user information.</returns>
         <remarks>To be added.</remarks>
@@ -734,13 +709,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__49))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -756,8 +727,9 @@
         <param name="clientAssertion">The client assertion to use for token acquisition.</param>
         <param name="resource">Identifier of the target resource that is the recipient of the requested token. It can be null if provided earlier to acquire authorizationCode.</param>
         <summary>
-            Acquires security token from the authority using an authorization code previously received.
-            This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
+            In a Web App, attemps to acquire a security token from the authority using an authorization code previously received
+            (after a call to one of the overrides of <see cref="M:AcquireTokenByAuthorizationCodeAsync">AcquireTokenByAuthorizationCodeAsync</see>). 
+            For more details see https://aka.ms/adal-net-authorization-code. This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
             </summary>
         <returns>It contains Access Token, its expiration time, user information.</returns>
         <remarks>To be added.</remarks>
@@ -771,13 +743,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__47))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -809,13 +777,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__51))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -832,7 +796,7 @@
         <param name="resource">Identifier of the target resource that is the recipient of the requested token. It can be null if provided earlier to acquire authorizationCode.</param>
         <summary>
             Acquires security token from the authority using an authorization code previously received.
-            This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
+            This method does not lookup the token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
             </summary>
         <returns>It contains Access Token, its expiration time, user information.</returns>
         <remarks>To be added.</remarks>
@@ -847,13 +811,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByAuthorizationCodeAsync&gt;d__52))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -875,8 +835,9 @@
             This saves the application admin from the need to explicitly manage the certificate rollover
             (either via portal or powershell/CLI operation)</param>
         <summary>
-            Acquires security token from the authority using an authorization code previously received.
-            This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
+            In a Web App, attempts to acquire a security token from the authority using an authorization code previously received
+            (after a call to one of the overrides of <see cref="M:AcquireTokenByAuthorizationCodeAsync">AcquireTokenByAuthorizationCodeAsync</see>). 
+            For more details see https://aka.ms/adal-net-authorization-code. This method does not lookup token cache, but stores the result in it, so it can be looked up using other methods such as <see cref="M:Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext.AcquireTokenSilentAsync(System.String,System.String,Microsoft.IdentityModel.Clients.ActiveDirectory.UserIdentifier)" />.
             </summary>
         <returns>It contains Access Token, its expiration time, user information.</returns>
         <remarks>To be added.</remarks>
@@ -890,13 +851,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenByDeviceCodeAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -922,13 +879,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__25))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -954,13 +907,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__45))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -988,13 +937,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__43))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -1023,13 +968,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__44))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -1058,13 +999,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__26))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -1093,13 +1030,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;AcquireTokenSilentAsync&gt;d__27))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationResult&gt;</ReturnType>
       </ReturnValue>
@@ -1130,7 +1063,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1152,7 +1086,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Guid</ReturnType>
@@ -1175,7 +1110,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1197,13 +1133,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;GetAuthorizationRequestUrlAsync&gt;d__41))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
       </ReturnValue>
@@ -1236,13 +1168,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.IdentityModel.Clients.ActiveDirectory.AuthenticationContext/&lt;GetAuthorizationRequestUrlAsync&gt;d__42))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Uri&gt;</ReturnType>
       </ReturnValue>
@@ -1277,17 +1205,20 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Property to provide ADAL's token cache. Depending on the platform, TokenCache may have a default persistent cache or not.
-            Library will automatically save tokens in default TokenCache whenever you obtain them. Cached tokens will be available only to the application that saved them.
-            If the cache is persistent, the tokens stored in it will outlive the application's execution, and will be available in subsequent runs.
-            To turn OFF token caching, set TokenCache to null.
+            ADAL's token cache, where tokens are automatically saved.
+            On some platforms, e.g. iOS, Android and UWP, the TokenCache is backed by a persistent store which is implemeted by ADAL.
+            On other platforms, e.g. .net and .net core - the developer is responsible for implementing a persistent store.
+            If not using a persistent store, an in-memory store is used, which is destroyed once the application stops. 
+            To find out more about leveraging the token cache visit: https://aka.ms/adal-net-using-cached-tokens
+            To find out more about implementing a persistent store, visit: https://aka.ms/adal-net-cache-serialization
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -1302,7 +1233,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type VirtualMachineSizesOperationsExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>20.0.0.0</AssemblyVersion>
+    <AssemblyVersion>21.0.0.0</AssemblyVersion>
+    <AssemblyVersion>22.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineSize&gt;</ReturnType>
@@ -45,7 +47,8 @@
             The location upon which virtual-machine-sizes is queried.
             </param>
         <summary>
-            Lists all available virtual machine sizes for a subscription in a location.
+            This API is deprecated. Use [Resources
+            Skus](https://docs.microsoft.com/en-us/rest/api/compute/resourceskus/list)
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -59,13 +62,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineSizesOperationsExtensions/&lt;ListAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineSize&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -85,7 +84,8 @@
             The cancellation token.
             </param>
         <summary>
-            Lists all available virtual machine sizes for a subscription in a location.
+            This API is deprecated. Use [Resources
+            Skus](https://docs.microsoft.com/en-us/rest/api/compute/resourceskus/list)
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>

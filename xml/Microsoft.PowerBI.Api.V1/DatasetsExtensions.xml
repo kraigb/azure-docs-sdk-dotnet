@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type DatasetsExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.12.18114</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,6 +27,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -55,13 +57,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;DeleteDatasetByIdAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -92,6 +90,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -123,13 +122,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;DeleteRowsAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -162,6 +157,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -191,13 +187,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;GetDatasetByIdAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V1.Models.Dataset&gt;</ReturnType>
       </ReturnValue>
@@ -228,6 +220,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -255,13 +248,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;GetDatasetsAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V1.Models.ODataResponseListDataset&gt;</ReturnType>
       </ReturnValue>
@@ -290,6 +279,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -319,13 +309,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;GetDatasourcesAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V1.Models.ODataResponseListDatasource&gt;</ReturnType>
       </ReturnValue>
@@ -356,6 +342,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -385,13 +372,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;GetGatewayDatasourcesAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V1.Models.ODataResponseListGatewayDatasource&gt;</ReturnType>
       </ReturnValue>
@@ -422,6 +405,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -451,13 +435,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;GetTablesAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V1.Models.ODataResponseListTable&gt;</ReturnType>
       </ReturnValue>
@@ -487,6 +467,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -516,13 +497,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;PostDatasetAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -553,6 +530,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -586,13 +564,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;PostRowsAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -627,6 +601,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -660,13 +635,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;PutTableAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -701,6 +672,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -732,13 +704,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V1.DatasetsExtensions/&lt;SetAllConnectionsAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>

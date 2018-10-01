@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type ExponentialBackoff = class&#xA;    interface IRetryPolicy" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,7 +33,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="retryCount" Type="System.Int32" />
@@ -63,7 +65,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -71,7 +74,7 @@
       <Parameters>
         <Parameter Name="currentRetryCount" Type="System.Int32" />
         <Parameter Name="lastException" Type="System.Exception" />
-        <Parameter Name="retryInterval" Type="System.TimeSpan&amp;" RefType="out" />
+        <Parameter Name="retryInterval" Type="System.TimeSpan" RefType="out" />
       </Parameters>
       <Docs>
         <param name="currentRetryCount">How many times the operation has been retried.</param>

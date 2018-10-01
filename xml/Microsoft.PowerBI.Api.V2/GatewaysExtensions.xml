@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type GatewaysExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.0.12.18114</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,6 +27,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -55,13 +57,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;AddDatasourceUserAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -92,6 +90,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -119,13 +118,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;CreateDatasourceAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.GatewayDatasource&gt;</ReturnType>
       </ReturnValue>
@@ -154,6 +149,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -181,13 +177,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;DeleteDatasourceAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -216,6 +208,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -245,13 +238,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;DeleteDatasourceUserAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -282,6 +271,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -309,13 +299,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetDatasourceByIdAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.GatewayDatasource&gt;</ReturnType>
       </ReturnValue>
@@ -344,6 +330,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -369,13 +356,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetDatasourcesAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListGatewayDatasource&gt;</ReturnType>
       </ReturnValue>
@@ -402,6 +385,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -429,13 +413,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetDatasourceStatusByIdAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
@@ -464,6 +444,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -491,13 +472,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetDatasourceUsersAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListUserAccessRight&gt;</ReturnType>
       </ReturnValue>
@@ -526,6 +503,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -551,13 +529,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetGatewayByIdAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.Gateway&gt;</ReturnType>
       </ReturnValue>
@@ -584,6 +558,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -607,13 +582,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;GetGatewaysAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.PowerBI.Api.V2.Models.ODataResponseListGateway&gt;</ReturnType>
       </ReturnValue>
@@ -630,6 +601,35 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateDatasource">
+      <MemberSignature Language="C#" Value="public static object UpdateDatasource (this Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, Microsoft.PowerBI.Api.V2.Models.CredentialDetails credentialDetails);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object UpdateDatasource(class Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, class Microsoft.PowerBI.Api.V2.Models.CredentialDetails credentialDetails) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasource(Microsoft.PowerBI.Api.V2.IGateways,System.String,System.String,Microsoft.PowerBI.Api.V2.Models.CredentialDetails)" />
+      <MemberSignature Language="F#" Value="static member UpdateDatasource : Microsoft.PowerBI.Api.V2.IGateways * string * string * Microsoft.PowerBI.Api.V2.Models.CredentialDetails -&gt; obj" Usage="Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasource (operations, gatewayId, datasourceId, credentialDetails)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.PowerBI.Api.V2.IGateways" RefType="this" />
+        <Parameter Name="gatewayId" Type="System.String" />
+        <Parameter Name="datasourceId" Type="System.String" />
+        <Parameter Name="credentialDetails" Type="Microsoft.PowerBI.Api.V2.Models.CredentialDetails" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="gatewayId">To be added.</param>
+        <param name="datasourceId">To be added.</param>
+        <param name="credentialDetails">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDatasource">
       <MemberSignature Language="C#" Value="public static object UpdateDatasource (this Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest updateDatasourceRequest);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object UpdateDatasource(class Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, class Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest updateDatasourceRequest) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasource(Microsoft.PowerBI.Api.V2.IGateways,System.String,System.String,Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest)" />
@@ -637,6 +637,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -659,6 +660,37 @@
       </Docs>
     </Member>
     <Member MemberName="UpdateDatasourceAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; UpdateDatasourceAsync (this Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, Microsoft.PowerBI.Api.V2.Models.CredentialDetails credentialDetails, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; UpdateDatasourceAsync(class Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, class Microsoft.PowerBI.Api.V2.Models.CredentialDetails credentialDetails, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasourceAsync(Microsoft.PowerBI.Api.V2.IGateways,System.String,System.String,Microsoft.PowerBI.Api.V2.Models.CredentialDetails,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateDatasourceAsync : Microsoft.PowerBI.Api.V2.IGateways * string * string * Microsoft.PowerBI.Api.V2.Models.CredentialDetails * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasourceAsync (operations, gatewayId, datasourceId, credentialDetails, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.PowerBI.Api.V2.IGateways" RefType="this" />
+        <Parameter Name="gatewayId" Type="System.String" />
+        <Parameter Name="datasourceId" Type="System.String" />
+        <Parameter Name="credentialDetails" Type="Microsoft.PowerBI.Api.V2.Models.CredentialDetails" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">To be added.</param>
+        <param name="gatewayId">To be added.</param>
+        <param name="datasourceId">To be added.</param>
+        <param name="credentialDetails">To be added.</param>
+        <param name="cancellationToken">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateDatasourceAsync">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; UpdateDatasourceAsync (this Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest updateDatasourceRequest, System.Threading.CancellationToken cancellationToken = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; UpdateDatasourceAsync(class Microsoft.PowerBI.Api.V2.IGateways operations, string gatewayId, string datasourceId, class Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest updateDatasourceRequest, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.PowerBI.Api.V2.GatewaysExtensions.UpdateDatasourceAsync(Microsoft.PowerBI.Api.V2.IGateways,System.String,System.String,Microsoft.PowerBI.Api.V2.Models.UpdateDatasourceRequest,System.Threading.CancellationToken)" />
@@ -666,13 +698,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.PowerBI.Api</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.0.12.18114</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.PowerBI.Api.V2.GatewaysExtensions/&lt;UpdateDatasourceAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>

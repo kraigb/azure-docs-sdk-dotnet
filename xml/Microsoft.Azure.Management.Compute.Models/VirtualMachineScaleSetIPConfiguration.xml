@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type VirtualMachineScaleSetIPConfiguration = class&#xA;    inherit SubResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>20.0.0.0</AssemblyVersion>
+    <AssemblyVersion>21.0.0.0</AssemblyVersion>
+    <AssemblyVersion>22.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.Compute.Models.SubResource</BaseTypeName>
@@ -33,7 +34,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,15 +47,15 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetIPConfiguration (string name, string id = null, Microsoft.Azure.Management.Compute.Models.ApiEntityReference subnet = null, Nullable&lt;bool&gt; primary = null, Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration publicIPAddressConfiguration = null, string privateIPAddressVersion = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationGatewayBackendAddressPools = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerBackendAddressPools = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerInboundNatPools = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string id, class Microsoft.Azure.Management.Compute.Models.ApiEntityReference subnet, valuetype System.Nullable`1&lt;bool&gt; primary, class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration publicIPAddressConfiguration, string privateIPAddressVersion, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationGatewayBackendAddressPools, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerBackendAddressPools, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerInboundNatPools) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration.#ctor(System.String,System.String,Microsoft.Azure.Management.Compute.Models.ApiEntityReference,System.Nullable{System.Boolean},Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource},System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource},System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional id As String = null, Optional subnet As ApiEntityReference = null, Optional primary As Nullable(Of Boolean) = null, Optional publicIPAddressConfiguration As VirtualMachineScaleSetPublicIPAddressConfiguration = null, Optional privateIPAddressVersion As String = null, Optional applicationGatewayBackendAddressPools As IList(Of SubResource) = null, Optional loadBalancerBackendAddressPools As IList(Of SubResource) = null, Optional loadBalancerInboundNatPools As IList(Of SubResource) = null)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration : string * string * Microsoft.Azure.Management.Compute.Models.ApiEntityReference * Nullable&lt;bool&gt; * Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; -&gt; Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration" Usage="new Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration (name, id, subnet, primary, publicIPAddressConfiguration, privateIPAddressVersion, applicationGatewayBackendAddressPools, loadBalancerBackendAddressPools, loadBalancerInboundNatPools)" />
+      <MemberSignature Language="C#" Value="public VirtualMachineScaleSetIPConfiguration (string name, string id = null, Microsoft.Azure.Management.Compute.Models.ApiEntityReference subnet = null, Nullable&lt;bool&gt; primary = null, Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration publicIPAddressConfiguration = null, string privateIPAddressVersion = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationGatewayBackendAddressPools = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationSecurityGroups = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerBackendAddressPools = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerInboundNatPools = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string id, class Microsoft.Azure.Management.Compute.Models.ApiEntityReference subnet, valuetype System.Nullable`1&lt;bool&gt; primary, class Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration publicIPAddressConfiguration, string privateIPAddressVersion, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationGatewayBackendAddressPools, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; applicationSecurityGroups, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerBackendAddressPools, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; loadBalancerInboundNatPools) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration.#ctor(System.String,System.String,Microsoft.Azure.Management.Compute.Models.ApiEntityReference,System.Nullable{System.Boolean},Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource},System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource},System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource},System.Collections.Generic.IList{Microsoft.Azure.Management.Compute.Models.SubResource})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional id As String = null, Optional subnet As ApiEntityReference = null, Optional primary As Nullable(Of Boolean) = null, Optional publicIPAddressConfiguration As VirtualMachineScaleSetPublicIPAddressConfiguration = null, Optional privateIPAddressVersion As String = null, Optional applicationGatewayBackendAddressPools As IList(Of SubResource) = null, Optional applicationSecurityGroups As IList(Of SubResource) = null, Optional loadBalancerBackendAddressPools As IList(Of SubResource) = null, Optional loadBalancerInboundNatPools As IList(Of SubResource) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration : string * string * Microsoft.Azure.Management.Compute.Models.ApiEntityReference * Nullable&lt;bool&gt; * Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; -&gt; Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration" Usage="new Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration (name, id, subnet, primary, publicIPAddressConfiguration, privateIPAddressVersion, applicationGatewayBackendAddressPools, applicationSecurityGroups, loadBalancerBackendAddressPools, loadBalancerInboundNatPools)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -63,6 +65,7 @@
         <Parameter Name="publicIPAddressConfiguration" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetPublicIPAddressConfiguration" />
         <Parameter Name="privateIPAddressVersion" Type="System.String" />
         <Parameter Name="applicationGatewayBackendAddressPools" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt;" />
+        <Parameter Name="applicationSecurityGroups" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt;" />
         <Parameter Name="loadBalancerBackendAddressPools" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt;" />
         <Parameter Name="loadBalancerInboundNatPools" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt;" />
       </Parameters>
@@ -85,6 +88,8 @@
             gateways. A scale set can reference backend address pools of
             multiple application gateways. Multiple scale sets cannot use the
             same application gateway.</param>
+        <param name="applicationSecurityGroups">Specifies an array of
+            references to application security group.</param>
         <param name="loadBalancerBackendAddressPools">Specifies an array of
             references to backend address pools of load balancers. A scale set
             can reference backend address pools of one public and one internal
@@ -111,7 +116,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -132,6 +138,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ApplicationSecurityGroups">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; ApplicationSecurityGroups { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; ApplicationSecurityGroups" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration.ApplicationSecurityGroups" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationSecurityGroups As IList(Of SubResource)" />
+      <MemberSignature Language="F#" Value="member this.ApplicationSecurityGroups : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; with get, set" Usage="Microsoft.Azure.Management.Compute.Models.VirtualMachineScaleSetIPConfiguration.ApplicationSecurityGroups" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.applicationSecurityGroups")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets specifies an array of references to application
+            security group.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="LoadBalancerBackendAddressPools">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.SubResource&gt; LoadBalancerBackendAddressPools { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.Compute.Models.SubResource&gt; LoadBalancerBackendAddressPools" />
@@ -141,7 +175,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -171,7 +206,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -201,7 +237,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -228,7 +265,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -256,7 +294,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -286,7 +325,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -313,7 +353,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -340,7 +381,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

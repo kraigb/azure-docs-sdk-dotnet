@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type AdalError = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+    <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -49,7 +51,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -70,7 +73,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -91,7 +95,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -112,7 +117,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -133,7 +139,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -154,7 +161,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -175,7 +183,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -183,6 +192,27 @@
       <Docs>
         <summary>
             Authority validation failed.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BrokerRedirectUriIncorrectFormat">
+      <MemberSignature Language="C#" Value="public const string BrokerRedirectUriIncorrectFormat;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string BrokerRedirectUriIncorrectFormat" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.BrokerRedirectUriIncorrectFormat" />
+      <MemberSignature Language="VB.NET" Value="Public Const BrokerRedirectUriIncorrectFormat As String " />
+      <MemberSignature Language="F#" Value="val mutable BrokerRedirectUriIncorrectFormat : string" Usage="Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.BrokerRedirectUriIncorrectFormat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Broker redirectUri has incorrect format
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -196,7 +226,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -217,7 +248,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -238,7 +270,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -259,7 +292,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -280,7 +314,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -301,7 +336,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -322,7 +358,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -343,7 +380,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -364,7 +402,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -372,6 +411,27 @@
       <Docs>
         <summary>
             Federated service returned error.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormPostParsingFailure">
+      <MemberSignature Language="C#" Value="public const string FormPostParsingFailure;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string FormPostParsingFailure" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.FormPostParsingFailure" />
+      <MemberSignature Language="VB.NET" Value="Public Const FormPostParsingFailure As String " />
+      <MemberSignature Language="F#" Value="val mutable FormPostParsingFailure : string" Usage="Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.FormPostParsingFailure" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Form post parsing failure
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -385,7 +445,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -406,7 +467,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -427,7 +489,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -448,7 +511,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -469,7 +533,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -490,7 +555,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -511,7 +577,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -532,7 +599,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -553,7 +621,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -574,7 +643,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -595,7 +665,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -603,6 +674,48 @@
       <Docs>
         <summary>
             Invalid service URL.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidWebBrowserType">
+      <MemberSignature Language="C#" Value="public const string InvalidWebBrowserType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidWebBrowserType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidWebBrowserType" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidWebBrowserType As String " />
+      <MemberSignature Language="F#" Value="val mutable InvalidWebBrowserType : string" Usage="Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidWebBrowserType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Invalid web browser type.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvalidWebPageResponse">
+      <MemberSignature Language="C#" Value="public const string InvalidWebPageResponse;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string InvalidWebPageResponse" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidWebPageResponse" />
+      <MemberSignature Language="VB.NET" Value="Public Const InvalidWebPageResponse As String " />
+      <MemberSignature Language="F#" Value="val mutable InvalidWebPageResponse : string" Usage="Microsoft.IdentityModel.Clients.ActiveDirectory.AdalError.InvalidWebPageResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Invalid web page response
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -616,7 +729,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -637,7 +751,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -658,7 +773,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -679,7 +795,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -700,7 +817,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -721,7 +839,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -742,7 +861,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -763,7 +883,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -784,7 +905,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -805,7 +927,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -826,7 +949,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -847,7 +971,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -868,7 +993,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -889,7 +1015,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -910,7 +1037,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -931,7 +1059,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -952,7 +1081,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -977,7 +1107,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -998,7 +1129,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -1019,7 +1151,8 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

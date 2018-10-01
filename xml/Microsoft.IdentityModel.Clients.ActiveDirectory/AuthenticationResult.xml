@@ -6,14 +6,15 @@
   <TypeSignature Language="F#" Value="type AuthenticationResult = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+    <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="azure-dotnet">
+    <Attribute>
       <AttributeName>System.Runtime.Serialization.DataContract</AttributeName>
     </Attribute>
   </Attributes>
@@ -33,10 +34,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -60,10 +62,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -87,7 +90,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -109,7 +113,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -132,10 +137,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -160,10 +166,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -187,10 +194,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -214,10 +222,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>
@@ -241,10 +250,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
+        <Attribute>
           <AttributeName>System.Runtime.Serialization.DataMember</AttributeName>
         </Attribute>
       </Attributes>

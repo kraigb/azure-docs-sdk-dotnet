@@ -1,22 +1,16 @@
 ---
 title: Azure .NET Storage APIs
 description: Reference for Azure Storage libraries for .NET
-keywords: Azure, .NET, SDK, API, storage, blob
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: storage
-ms.custom: devcenter, svc-overview
 ---
 
 # Azure Storage APIs for .NET
 
 ## Overview
 
-Read and write files, blob (object) data, key-value pairs, and messages from your .NET applications with [Azure Storage](https://review.docs.microsoft.com/azure/storage/storage-introduction).
+Read and write files, blob (object) data, key-value pairs, and messages from your .NET applications with [Azure Storage](https://docs.microsoft.com/azure/storage/storage-introduction).
 
 To get started with Azure Storage, see [Get started with Azure Blob storage using .NET](/azure/storage/storage-dotnet-how-to-use-blobs).
 

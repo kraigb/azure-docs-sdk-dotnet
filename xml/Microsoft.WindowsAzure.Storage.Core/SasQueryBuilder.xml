@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type SasQueryBuilder = class&#xA;    inherit UriQueryBuilder" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>9.2.0.0</AssemblyVersion>
+    <AssemblyVersion>9.3.0.0</AssemblyVersion>
+    <AssemblyVersion>9.3.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.WindowsAzure.Storage.Core.UriQueryBuilder</BaseTypeName>
@@ -28,7 +29,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="sasToken" Type="System.String" />
@@ -50,7 +52,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -76,7 +79,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -102,7 +106,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

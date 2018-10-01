@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type ServiceClient = class&#xA;    interface IDisposable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-    <AssemblyVersion>1.6.1.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,7 +33,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -55,7 +57,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.ServiceClient</ReturnType>
@@ -80,7 +83,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.ServiceClient</ReturnType>
@@ -92,6 +96,35 @@
       <Docs>
         <param name="connectionString">Connection string for the iothub</param>
         <param name="transportType">Specifies whether Amqp or Amqp over Websocket transport is used</param>
+        <summary>
+            Create ServiceClient from the specified connection string using specified Transport Type
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFromConnectionString">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Devices.ServiceClient CreateFromConnectionString (string connectionString, Microsoft.Azure.Devices.TransportType transportType, Microsoft.Azure.Devices.ServiceClientTransportSettings transportSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Devices.ServiceClient CreateFromConnectionString(string connectionString, valuetype Microsoft.Azure.Devices.TransportType transportType, class Microsoft.Azure.Devices.ServiceClientTransportSettings transportSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString(System.String,Microsoft.Azure.Devices.TransportType,Microsoft.Azure.Devices.ServiceClientTransportSettings)" />
+      <MemberSignature Language="F#" Value="static member CreateFromConnectionString : string * Microsoft.Azure.Devices.TransportType * Microsoft.Azure.Devices.ServiceClientTransportSettings -&gt; Microsoft.Azure.Devices.ServiceClient" Usage="Microsoft.Azure.Devices.ServiceClient.CreateFromConnectionString (connectionString, transportType, transportSettings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Devices.ServiceClient</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="connectionString" Type="System.String" />
+        <Parameter Name="transportType" Type="Microsoft.Azure.Devices.TransportType" />
+        <Parameter Name="transportSettings" Type="Microsoft.Azure.Devices.ServiceClientTransportSettings" />
+      </Parameters>
+      <Docs>
+        <param name="connectionString">Connection string for the iothub</param>
+        <param name="transportType">Specifies whether Amqp or Amqp over Websocket transport is used</param>
+        <param name="transportSettings">Specifies the AMQP and HTTP proxy settings for Service Client</param>
         <summary>
             Create ServiceClient from the specified connection string using specified Transport Type
             </summary>
@@ -111,7 +144,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -132,7 +166,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -158,7 +193,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.FeedbackReceiver&lt;Microsoft.Azure.Devices.FeedbackBatch&gt;</ReturnType>
@@ -181,7 +217,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.FileNotificationReceiver&lt;Microsoft.Azure.Devices.FileNotification&gt;</ReturnType>
@@ -204,7 +241,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.ServiceStatistics&gt;</ReturnType>
@@ -226,7 +264,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.ServiceStatistics&gt;</ReturnType>
@@ -253,7 +292,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;</ReturnType>
@@ -280,7 +320,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;</ReturnType>
@@ -301,6 +342,68 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="InvokeDeviceMethodAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt; InvokeDeviceMethodAsync (string deviceId, string moduleId, Microsoft.Azure.Devices.CloudToDeviceMethod cloudToDeviceMethod);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt; InvokeDeviceMethodAsync(string deviceId, string moduleId, class Microsoft.Azure.Devices.CloudToDeviceMethod cloudToDeviceMethod) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,System.String,Microsoft.Azure.Devices.CloudToDeviceMethod)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeDeviceMethodAsync : string * string * Microsoft.Azure.Devices.CloudToDeviceMethod -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;" Usage="serviceClient.InvokeDeviceMethodAsync (deviceId, moduleId, cloudToDeviceMethod)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deviceId" Type="System.String" />
+        <Parameter Name="moduleId" Type="System.String" />
+        <Parameter Name="cloudToDeviceMethod" Type="Microsoft.Azure.Devices.CloudToDeviceMethod" />
+      </Parameters>
+      <Docs>
+        <param name="deviceId">Device Id</param>
+        <param name="moduleId">Module Id</param>
+        <param name="cloudToDeviceMethod">Device method parameters (passthrough to device)</param>
+        <summary>
+            Interactively invokes a method on device
+            </summary>
+        <returns>Method result</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InvokeDeviceMethodAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt; InvokeDeviceMethodAsync (string deviceId, string moduleId, Microsoft.Azure.Devices.CloudToDeviceMethod cloudToDeviceMethod, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt; InvokeDeviceMethodAsync(string deviceId, string moduleId, class Microsoft.Azure.Devices.CloudToDeviceMethod cloudToDeviceMethod, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.ServiceClient.InvokeDeviceMethodAsync(System.String,System.String,Microsoft.Azure.Devices.CloudToDeviceMethod,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="abstract member InvokeDeviceMethodAsync : string * string * Microsoft.Azure.Devices.CloudToDeviceMethod * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;" Usage="serviceClient.InvokeDeviceMethodAsync (deviceId, moduleId, cloudToDeviceMethod, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.CloudToDeviceMethodResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deviceId" Type="System.String" />
+        <Parameter Name="moduleId" Type="System.String" />
+        <Parameter Name="cloudToDeviceMethod" Type="Microsoft.Azure.Devices.CloudToDeviceMethod" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="deviceId">Device Id</param>
+        <param name="moduleId">Module Id</param>
+        <param name="cloudToDeviceMethod">Device method parameters (passthrough to device)</param>
+        <param name="cancellationToken">Cancellation Token</param>
+        <summary>
+            Interactively invokes a method on device
+            </summary>
+        <returns>Method result</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OpenAsync">
       <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task OpenAsync ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task OpenAsync() cil managed" />
@@ -310,7 +413,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -333,7 +437,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.PurgeMessageQueueResult&gt;</ReturnType>
@@ -358,7 +463,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Devices.PurgeMessageQueueResult&gt;</ReturnType>
@@ -385,7 +491,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -401,6 +508,36 @@
         <param name="timeout">The operation timeout override. If not used uses OperationTimeout default</param>
         <summary>
             Send a one-way notification to the specified device
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendAsync">
+      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.Task SendAsync (string deviceId, string moduleId, Microsoft.Azure.Devices.Message message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task SendAsync(string deviceId, string moduleId, class Microsoft.Azure.Devices.Message message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Devices.ServiceClient.SendAsync(System.String,System.String,Microsoft.Azure.Devices.Message)" />
+      <MemberSignature Language="F#" Value="abstract member SendAsync : string * string * Microsoft.Azure.Devices.Message -&gt; System.Threading.Tasks.Task" Usage="serviceClient.SendAsync (deviceId, moduleId, message)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="deviceId" Type="System.String" />
+        <Parameter Name="moduleId" Type="System.String" />
+        <Parameter Name="message" Type="Microsoft.Azure.Devices.Message" />
+      </Parameters>
+      <Docs>
+        <param name="deviceId">The device identifier for the target device</param>
+        <param name="moduleId">The module identifier for the target device module</param>
+        <param name="message">The message containing the notification</param>
+        <summary>
+            Send a one-way notification to the specified device module
             </summary>
         <returns />
         <remarks>To be added.</remarks>

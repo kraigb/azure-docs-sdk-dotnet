@@ -6,14 +6,16 @@
   <TypeSignature Language="F#" Value="type StorageInfo = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Contains cluster storage information.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,7 +28,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storageAccountName" Type="System.String" />
@@ -46,13 +48,15 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Fully-qualified storage account name
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

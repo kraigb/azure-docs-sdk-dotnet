@@ -6,8 +6,8 @@
   <TypeSignature Language="F#" Value="type SelfHostedIntegrationRuntimeStatus = class&#xA;    inherit IntegrationRuntimeStatus" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeStatus</BaseTypeName>
@@ -36,8 +36,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,15 +49,15 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SelfHostedIntegrationRuntimeStatus (System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string dataFactoryName = null, string state = null, Nullable&lt;DateTime&gt; createTime = null, string taskQueueId = null, string internalChannelEncryption = null, string version = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; nodes = null, Nullable&lt;DateTime&gt; scheduledUpdateDate = null, string updateDelayOffset = null, string localTimeZoneOffset = null, System.Collections.Generic.IDictionary&lt;string,string&gt; capabilities = null, System.Collections.Generic.IList&lt;string&gt; serviceUrls = null, string autoUpdate = null, string versionStatus = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; links = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string dataFactoryName, string state, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; createTime, string taskQueueId, string internalChannelEncryption, string version, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; nodes, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; scheduledUpdateDate, string updateDelayOffset, string localTimeZoneOffset, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; capabilities, class System.Collections.Generic.IList`1&lt;string&gt; serviceUrls, string autoUpdate, string versionStatus, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; links) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode},System.Nullable{System.DateTime},System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{System.String},System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional additionalProperties As IDictionary(Of String, Object) = null, Optional dataFactoryName As String = null, Optional state As String = null, Optional createTime As Nullable(Of DateTime) = null, Optional taskQueueId As String = null, Optional internalChannelEncryption As String = null, Optional version As String = null, Optional nodes As IList(Of SelfHostedIntegrationRuntimeNode) = null, Optional scheduledUpdateDate As Nullable(Of DateTime) = null, Optional updateDelayOffset As String = null, Optional localTimeZoneOffset As String = null, Optional capabilities As IDictionary(Of String, String) = null, Optional serviceUrls As IList(Of String) = null, Optional autoUpdate As String = null, Optional versionStatus As String = null, Optional links As IList(Of LinkedIntegrationRuntime) = null)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus : System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Nullable&lt;DateTime&gt; * string * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; * Nullable&lt;DateTime&gt; * string * string * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IList&lt;string&gt; * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; -&gt; Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus" Usage="new Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus (additionalProperties, dataFactoryName, state, createTime, taskQueueId, internalChannelEncryption, version, nodes, scheduledUpdateDate, updateDelayOffset, localTimeZoneOffset, capabilities, serviceUrls, autoUpdate, versionStatus, links)" />
+      <MemberSignature Language="C#" Value="public SelfHostedIntegrationRuntimeStatus (System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string dataFactoryName = null, string state = null, Nullable&lt;DateTime&gt; createTime = null, string taskQueueId = null, string internalChannelEncryption = null, string version = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; nodes = null, Nullable&lt;DateTime&gt; scheduledUpdateDate = null, string updateDelayOffset = null, string localTimeZoneOffset = null, System.Collections.Generic.IDictionary&lt;string,string&gt; capabilities = null, System.Collections.Generic.IList&lt;string&gt; serviceUrls = null, string autoUpdate = null, string versionStatus = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; links = null, string pushedVersion = null, string latestVersion = null, Nullable&lt;DateTime&gt; autoUpdateETA = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string dataFactoryName, string state, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; createTime, string taskQueueId, string internalChannelEncryption, string version, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; nodes, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; scheduledUpdateDate, string updateDelayOffset, string localTimeZoneOffset, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; capabilities, class System.Collections.Generic.IList`1&lt;string&gt; serviceUrls, string autoUpdate, string versionStatus, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; links, string pushedVersion, string latestVersion, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; autoUpdateETA) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Nullable{System.DateTime},System.String,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode},System.Nullable{System.DateTime},System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{System.String},System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime},System.String,System.String,System.Nullable{System.DateTime})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional additionalProperties As IDictionary(Of String, Object) = null, Optional dataFactoryName As String = null, Optional state As String = null, Optional createTime As Nullable(Of DateTime) = null, Optional taskQueueId As String = null, Optional internalChannelEncryption As String = null, Optional version As String = null, Optional nodes As IList(Of SelfHostedIntegrationRuntimeNode) = null, Optional scheduledUpdateDate As Nullable(Of DateTime) = null, Optional updateDelayOffset As String = null, Optional localTimeZoneOffset As String = null, Optional capabilities As IDictionary(Of String, String) = null, Optional serviceUrls As IList(Of String) = null, Optional autoUpdate As String = null, Optional versionStatus As String = null, Optional links As IList(Of LinkedIntegrationRuntime) = null, Optional pushedVersion As String = null, Optional latestVersion As String = null, Optional autoUpdateETA As Nullable(Of DateTime) = null)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus : System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Nullable&lt;DateTime&gt; * string * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; * Nullable&lt;DateTime&gt; * string * string * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IList&lt;string&gt; * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; * string * string * Nullable&lt;DateTime&gt; -&gt; Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus" Usage="new Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus (additionalProperties, dataFactoryName, state, createTime, taskQueueId, internalChannelEncryption, version, nodes, scheduledUpdateDate, updateDelayOffset, localTimeZoneOffset, capabilities, serviceUrls, autoUpdate, versionStatus, links, pushedVersion, latestVersion, autoUpdateETA)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
@@ -76,6 +76,9 @@
         <Parameter Name="autoUpdate" Type="System.String" />
         <Parameter Name="versionStatus" Type="System.String" />
         <Parameter Name="links" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt;" />
+        <Parameter Name="pushedVersion" Type="System.String" />
+        <Parameter Name="latestVersion" Type="System.String" />
+        <Parameter Name="autoUpdateETA" Type="System.Nullable&lt;System.DateTime&gt;" />
       </Parameters>
       <Docs>
         <param name="additionalProperties">Unmatched properties from the
@@ -84,8 +87,8 @@
             integration runtime belong to.</param>
         <param name="state">The state of integration runtime. Possible
             values include: 'Initial', 'Stopped', 'Started', 'Starting',
-            'Stopping', 'NeedRegistration', 'Online', 'Limited',
-            'Offline'</param>
+            'Stopping', 'NeedRegistration', 'Online', 'Limited', 'Offline',
+            'AccessDenied'</param>
         <param name="createTime">The time at which the integration runtime
             was created, in ISO8601 format.</param>
         <param name="taskQueueId">The task queue id of the integration
@@ -115,6 +118,12 @@
             version.</param>
         <param name="links">The list of linked integration runtimes that
             are created to share with this integration runtime.</param>
+        <param name="pushedVersion">The version that the integration
+            runtime is going to update to.</param>
+        <param name="latestVersion">The latest version on download
+            center.</param>
+        <param name="autoUpdateETA">The estimated time when the self-hosted
+            integration runtime will be updated.</param>
         <summary>
             Initializes a new instance of the
             SelfHostedIntegrationRuntimeStatus class.
@@ -131,8 +140,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -151,6 +160,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AutoUpdateETA">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; AutoUpdateETA { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; AutoUpdateETA" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.AutoUpdateETA" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AutoUpdateETA As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.AutoUpdateETA : Nullable&lt;DateTime&gt;" Usage="Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.AutoUpdateETA" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="typeProperties.autoUpdateETA")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the estimated time when the self-hosted integration runtime
+            will be updated.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Capabilities">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Capabilities { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Capabilities" />
@@ -160,8 +197,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -189,8 +226,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -218,8 +255,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -240,6 +277,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="LatestVersion">
+      <MemberSignature Language="C#" Value="public string LatestVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LatestVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.LatestVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LatestVersion As String" />
+      <MemberSignature Language="F#" Value="member this.LatestVersion : string" Usage="Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.LatestVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="typeProperties.latestVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the latest version on download center.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Links">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; Links { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.LinkedIntegrationRuntime&gt; Links" />
@@ -249,7 +314,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -277,8 +343,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -305,8 +371,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -324,6 +390,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PushedVersion">
+      <MemberSignature Language="C#" Value="public string PushedVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PushedVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.PushedVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PushedVersion As String" />
+      <MemberSignature Language="F#" Value="member this.PushedVersion : string" Usage="Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeStatus.PushedVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="typeProperties.pushedVersion")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the version that the integration runtime is going to update
+            to.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ScheduledUpdateDate">
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ScheduledUpdateDate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ScheduledUpdateDate" />
@@ -333,8 +428,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -362,8 +457,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -391,8 +486,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -419,8 +514,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -448,8 +543,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -476,8 +571,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">

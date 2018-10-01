@@ -6,8 +6,8 @@
   <TypeSignature Language="F#" Value="type ManagedIntegrationRuntime = class&#xA;    inherit IntegrationRuntime" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntime</BaseTypeName>
@@ -37,8 +37,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,8 +57,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
@@ -74,7 +74,8 @@
         <param name="state">Integration runtime state, only valid for
             managed dedicated integration runtime. Possible values include:
             'Initial', 'Stopped', 'Started', 'Starting', 'Stopping',
-            'NeedRegistration', 'Online', 'Limited', 'Offline'</param>
+            'NeedRegistration', 'Online', 'Limited', 'Offline',
+            'AccessDenied'</param>
         <param name="computeProperties">The compute resource for managed
             integration runtime.</param>
         <param name="ssisProperties">SSIS properties for managed
@@ -94,8 +95,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -122,8 +123,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -150,8 +151,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -166,7 +167,7 @@
             Gets integration runtime state, only valid for managed dedicated
             integration runtime. Possible values include: 'Initial', 'Stopped',
             'Started', 'Starting', 'Stopping', 'NeedRegistration', 'Online',
-            'Limited', 'Offline'
+            'Limited', 'Offline', 'AccessDenied'
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -181,8 +182,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type CloudQueueClient = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-    <AssemblyVersion>9.2.0.0</AssemblyVersion>
+    <AssemblyVersion>9.3.0.0</AssemblyVersion>
+    <AssemblyVersion>9.3.2.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,7 +28,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="storageUri" Type="Microsoft.WindowsAzure.Storage.StorageUri" />
@@ -52,7 +54,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="baseUri" Type="System.Uri" />
@@ -77,7 +80,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.AuthenticationScheme</ReturnType>
@@ -102,7 +106,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -124,7 +129,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -156,7 +162,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -193,7 +200,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -225,7 +233,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -262,7 +271,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.ICancellableAsyncResult</ReturnType>
@@ -292,7 +302,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.ICancellableAsyncResult</ReturnType>
@@ -323,7 +334,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.ICancellableAsyncResult</ReturnType>
@@ -364,7 +376,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -398,7 +411,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -437,7 +451,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.IBufferManager</ReturnType>
@@ -460,7 +475,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Auth.StorageCredentials</ReturnType>
@@ -482,7 +498,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.QueueRequestOptions</ReturnType>
@@ -504,7 +521,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceProperties</ReturnType>
@@ -530,7 +548,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Shared.Protocol.ServiceStats</ReturnType>
@@ -556,7 +575,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.QueueResultSegment</ReturnType>
@@ -582,7 +602,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -607,7 +628,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.CloudQueue</ReturnType>
@@ -632,7 +654,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -665,7 +688,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -692,7 +716,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -722,7 +747,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -754,7 +780,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -788,7 +815,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -821,7 +849,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -848,7 +877,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -878,7 +908,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -910,7 +941,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -944,7 +976,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.WindowsAzure.Storage.Queue.CloudQueue&gt;</ReturnType>
@@ -976,7 +1009,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.QueueResultSegment</ReturnType>
@@ -1002,7 +1036,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.QueueResultSegment</ReturnType>
@@ -1029,7 +1064,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.Queue.QueueResultSegment</ReturnType>
@@ -1066,7 +1102,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1096,7 +1133,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1129,7 +1167,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1161,7 +1200,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1195,7 +1235,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1236,7 +1277,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1279,7 +1321,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1313,7 +1356,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1343,7 +1387,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1375,7 +1420,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1409,7 +1455,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -1446,7 +1493,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.WindowsAzure.Storage</AssemblyName>
-        <AssemblyVersion>9.2.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.0.0</AssemblyVersion>
+        <AssemblyVersion>9.3.2.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.WindowsAzure.Storage.StorageUri</ReturnType>

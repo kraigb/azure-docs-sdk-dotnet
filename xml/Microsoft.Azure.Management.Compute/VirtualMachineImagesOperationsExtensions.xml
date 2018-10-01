@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type VirtualMachineImagesOperationsExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-    <AssemblyVersion>20.0.0.0</AssemblyVersion>
+    <AssemblyVersion>21.0.0.0</AssemblyVersion>
+    <AssemblyVersion>22.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,7 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineImage</ReturnType>
@@ -75,13 +77,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions/&lt;GetAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImage&gt;</ReturnType>
       </ReturnValue>
@@ -132,7 +130,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;</ReturnType>
@@ -180,13 +179,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions/&lt;ListAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -238,7 +233,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;</ReturnType>
@@ -274,13 +270,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions/&lt;ListOffersAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -320,7 +312,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;</ReturnType>
@@ -352,13 +345,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions/&lt;ListPublishersAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -394,7 +383,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;</ReturnType>
@@ -434,13 +424,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
-        <AssemblyVersion>20.0.0.0</AssemblyVersion>
+        <AssemblyVersion>21.0.0.0</AssemblyVersion>
+        <AssemblyVersion>22.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Compute.VirtualMachineImagesOperationsExtensions/&lt;ListSkusAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineImageResource&gt;&gt;</ReturnType>
       </ReturnValue>

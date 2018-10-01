@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -85,12 +87,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__31))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -151,6 +149,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -192,12 +191,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginCreateOrUpdateByIdAsync&gt;d__35))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -243,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -294,12 +290,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginDeleteAsync&gt;d__29))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -356,6 +348,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -392,12 +385,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginDeleteByIdAsync&gt;d__33))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -439,6 +428,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -479,12 +469,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginMoveResourcesAsync&gt;d__25))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -520,6 +506,214 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="BeginUpdate">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.GenericResource BeginUpdate (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.GenericResource BeginUpdate(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdate(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdate (operations As IResourcesOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, apiVersion As String, parameters As GenericResource) As GenericResource" />
+      <MemberSignature Language="F#" Value="static member BeginUpdate : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * string * string * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource -&gt; Microsoft.Azure.Management.ResourceManager.Models.GenericResource" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdate (operations, resourceGroupName, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, apiVersion, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="parentResourcePath" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group for the resource. The name is case
+            insensitive.
+            </param>
+        <param name="resourceProviderNamespace">
+            The namespace of the resource provider.
+            </param>
+        <param name="parentResourcePath">
+            The parent resource identity.
+            </param>
+        <param name="resourceType">
+            The resource type of the resource to update.
+            </param>
+        <param name="resourceName">
+            The name of the resource to update.
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Parameters for updating the resource.
+            </param>
+        <summary>
+            Updates a resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; BeginUpdateAsync (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; BeginUpdateAsync(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateAsync(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginUpdateAsync : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * string * string * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateAsync (operations, resourceGroupName, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, apiVersion, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="parentResourcePath" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group for the resource. The name is case
+            insensitive.
+            </param>
+        <param name="resourceProviderNamespace">
+            The namespace of the resource provider.
+            </param>
+        <param name="parentResourcePath">
+            The parent resource identity.
+            </param>
+        <param name="resourceType">
+            The resource type of the resource to update.
+            </param>
+        <param name="resourceName">
+            The name of the resource to update.
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Parameters for updating the resource.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Updates a resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateById">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.GenericResource BeginUpdateById (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.GenericResource BeginUpdateById(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateById(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginUpdateById (operations As IResourcesOperations, resourceId As String, apiVersion As String, parameters As GenericResource) As GenericResource" />
+      <MemberSignature Language="F#" Value="static member BeginUpdateById : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource -&gt; Microsoft.Azure.Management.ResourceManager.Models.GenericResource" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateById (operations, resourceId, apiVersion, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceId">
+            The fully qualified ID of the resource, including the resource name and
+            resource type. Use the format,
+            /subscriptions/{guid}/resourceGroups/{resource-group-name}/{resource-provider-namespace}/{resource-type}/{resource-name}
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Update resource parameters.
+            </param>
+        <summary>
+            Updates a resource by ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginUpdateByIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; BeginUpdateByIdAsync (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; BeginUpdateByIdAsync(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateByIdAsync(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginUpdateByIdAsync : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.BeginUpdateByIdAsync (operations, resourceId, apiVersion, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceId">
+            The fully qualified ID of the resource, including the resource name and
+            resource type. Use the format,
+            /subscriptions/{guid}/resourceGroups/{resource-group-name}/{resource-provider-namespace}/{resource-type}/{resource-name}
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Update resource parameters.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Updates a resource by ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BeginValidateMoveResources">
       <MemberSignature Language="C#" Value="public static void BeginValidateMoveResources (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string sourceResourceGroupName, Microsoft.Azure.Management.ResourceManager.Models.ResourcesMoveInfo parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginValidateMoveResources(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string sourceResourceGroupName, class Microsoft.Azure.Management.ResourceManager.Models.ResourcesMoveInfo parameters) cil managed" />
@@ -530,6 +724,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -574,12 +769,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;BeginValidateMoveResourcesAsync&gt;d__27))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -629,6 +820,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -681,12 +873,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;CheckExistenceAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
@@ -743,6 +931,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -780,12 +969,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;CheckExistenceByIdAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
@@ -827,6 +1012,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -883,12 +1069,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -949,6 +1131,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -990,12 +1173,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;CreateOrUpdateByIdAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -1041,6 +1220,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1092,12 +1272,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;DeleteAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1154,6 +1330,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1190,12 +1367,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;DeleteByIdAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1237,6 +1410,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -1289,12 +1463,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;GetAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -1351,6 +1521,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
@@ -1388,12 +1559,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;GetByIdAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
       </ReturnValue>
@@ -1435,6 +1602,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
@@ -1466,12 +1634,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;ListAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1507,6 +1671,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
@@ -1542,12 +1707,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;ListByResourceGroupAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1587,6 +1748,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
@@ -1618,12 +1780,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__37))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1659,6 +1817,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
@@ -1690,12 +1849,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;ListNextAsync&gt;d__39))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1731,6 +1886,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1771,12 +1927,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;MoveResourcesAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1812,6 +1964,214 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="Update">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.GenericResource Update (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.GenericResource Update(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.Update(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Update (operations As IResourcesOperations, resourceGroupName As String, resourceProviderNamespace As String, parentResourcePath As String, resourceType As String, resourceName As String, apiVersion As String, parameters As GenericResource) As GenericResource" />
+      <MemberSignature Language="F#" Value="static member Update : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * string * string * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource -&gt; Microsoft.Azure.Management.ResourceManager.Models.GenericResource" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.Update (operations, resourceGroupName, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, apiVersion, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="parentResourcePath" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group for the resource. The name is case
+            insensitive.
+            </param>
+        <param name="resourceProviderNamespace">
+            The namespace of the resource provider.
+            </param>
+        <param name="parentResourcePath">
+            The parent resource identity.
+            </param>
+        <param name="resourceType">
+            The resource type of the resource to update.
+            </param>
+        <param name="resourceName">
+            The name of the resource to update.
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Parameters for updating the resource.
+            </param>
+        <summary>
+            Updates a resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; UpdateAsync (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; UpdateAsync(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceGroupName, string resourceProviderNamespace, string parentResourcePath, string resourceType, string resourceName, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,System.String,System.String,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateAsync : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * string * string * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateAsync (operations, resourceGroupName, resourceProviderNamespace, parentResourcePath, resourceType, resourceName, apiVersion, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="resourceProviderNamespace" Type="System.String" />
+        <Parameter Name="parentResourcePath" Type="System.String" />
+        <Parameter Name="resourceType" Type="System.String" />
+        <Parameter Name="resourceName" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group for the resource. The name is case
+            insensitive.
+            </param>
+        <param name="resourceProviderNamespace">
+            The namespace of the resource provider.
+            </param>
+        <param name="parentResourcePath">
+            The parent resource identity.
+            </param>
+        <param name="resourceType">
+            The resource type of the resource to update.
+            </param>
+        <param name="resourceName">
+            The name of the resource to update.
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Parameters for updating the resource.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Updates a resource.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateById">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.ResourceManager.Models.GenericResource UpdateById (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.ResourceManager.Models.GenericResource UpdateById(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateById(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function UpdateById (operations As IResourcesOperations, resourceId As String, apiVersion As String, parameters As GenericResource) As GenericResource" />
+      <MemberSignature Language="F#" Value="static member UpdateById : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource -&gt; Microsoft.Azure.Management.ResourceManager.Models.GenericResource" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateById (operations, resourceId, apiVersion, parameters)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.ResourceManager.Models.GenericResource</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceId">
+            The fully qualified ID of the resource, including the resource name and
+            resource type. Use the format,
+            /subscriptions/{guid}/resourceGroups/{resource-group-name}/{resource-provider-namespace}/{resource-type}/{resource-name}
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Update resource parameters.
+            </param>
+        <summary>
+            Updates a resource by ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateByIdAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; UpdateByIdAsync (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt; UpdateByIdAsync(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string resourceId, string apiVersion, class Microsoft.Azure.Management.ResourceManager.Models.GenericResource parameters, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateByIdAsync(Microsoft.Azure.Management.ResourceManager.IResourcesOperations,System.String,System.String,Microsoft.Azure.Management.ResourceManager.Models.GenericResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateByIdAsync : Microsoft.Azure.Management.ResourceManager.IResourcesOperations * string * string * Microsoft.Azure.Management.ResourceManager.Models.GenericResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;" Usage="Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions.UpdateByIdAsync (operations, resourceId, apiVersion, parameters, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.ResourceManager.Models.GenericResource&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.ResourceManager.IResourcesOperations" RefType="this" />
+        <Parameter Name="resourceId" Type="System.String" />
+        <Parameter Name="apiVersion" Type="System.String" />
+        <Parameter Name="parameters" Type="Microsoft.Azure.Management.ResourceManager.Models.GenericResource" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceId">
+            The fully qualified ID of the resource, including the resource name and
+            resource type. Use the format,
+            /subscriptions/{guid}/resourceGroups/{resource-group-name}/{resource-provider-namespace}/{resource-type}/{resource-name}
+            </param>
+        <param name="apiVersion">
+            The API version to use for the operation.
+            </param>
+        <param name="parameters">
+            Update resource parameters.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Updates a resource by ID.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ValidateMoveResources">
       <MemberSignature Language="C#" Value="public static void ValidateMoveResources (this Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string sourceResourceGroupName, Microsoft.Azure.Management.ResourceManager.Models.ResourcesMoveInfo parameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ValidateMoveResources(class Microsoft.Azure.Management.ResourceManager.IResourcesOperations operations, string sourceResourceGroupName, class Microsoft.Azure.Management.ResourceManager.Models.ResourcesMoveInfo parameters) cil managed" />
@@ -1822,6 +2182,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1866,12 +2227,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.ResourceManager.ResourcesOperationsExtensions/&lt;ValidateMoveResourcesAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>

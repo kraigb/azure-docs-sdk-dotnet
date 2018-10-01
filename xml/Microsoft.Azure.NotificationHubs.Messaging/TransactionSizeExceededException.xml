@@ -6,14 +6,20 @@
   <TypeSignature Language="F#" Value="type TransactionSizeExceededException = class&#xA;    inherit QuotaExceededException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.NotificationHubs.Messaging.QuotaExceededException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
-    <summary> Exception for signaling quota exceeded errors. </summary>
+    <summary>Represents an exception when the transaction size exceeds.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,16 +32,15 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">The exception message included with the base exception.</param>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.Messaging.TransactionSizeExceededException" /> class.
-            </summary>
+        <param name="message">The exception message.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.Messaging.TransactionSizeExceededException" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -48,6 +53,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -55,11 +61,9 @@
         <Parameter Name="innerException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="message">The exception message included with the base exception.</param>
-        <param name="innerException">The inner exception.</param>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.Messaging.TransactionSizeExceededException" /> class.
-            </summary>
+        <param name="message">The exception message.</param>
+        <param name="innerException">The error that caused the exception.</param>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.Messaging.TransactionSizeExceededException" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

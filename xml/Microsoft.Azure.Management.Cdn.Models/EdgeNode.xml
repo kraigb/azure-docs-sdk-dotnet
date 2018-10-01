@@ -7,13 +7,23 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Microsoft.Azure.Management.Cdn.Models.ProxyResource</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="azure-dotnet">System.Object</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="">
+      <AttributeName>Microsoft.Rest.Serialization.JsonTransformation</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Edgenode is a global Point of Presence (POP) location used to deliver
+            CDN content to end users.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,10 +36,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Initializes a new instance of the EdgeNode class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -67,8 +80,12 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
+        <Attribute FrameworkAlternate="">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="properties.ipAddressGroups")</AttributeName>
+        </Attribute>
         <Attribute FrameworkAlternate="azure-dotnet">
           <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="ipAddressGroups")</AttributeName>
         </Attribute>
@@ -77,7 +94,9 @@
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Cdn.Models.IpAddressGroup&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets list of ip address groups.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

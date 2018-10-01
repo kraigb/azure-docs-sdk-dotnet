@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type TokenCache = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-    <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+    <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,7 +28,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -46,7 +48,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="state" Type="System.Byte[]" />
@@ -68,7 +71,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache+TokenCacheNotification</ReturnType>
@@ -90,7 +94,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache+TokenCacheNotification</ReturnType>
@@ -112,7 +117,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache+TokenCacheNotification</ReturnType>
@@ -135,7 +141,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -158,7 +165,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -180,7 +188,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache</ReturnType>
@@ -202,7 +211,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -219,24 +229,54 @@
       </Docs>
     </Member>
     <Member MemberName="Deserialize">
-      <MemberSignature Language="C#" Value="public void Deserialize (byte[] state);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deserialize(unsigned int8[] state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Deserialize (state As Byte())" />
-      <MemberSignature Language="F#" Value="member this.Deserialize : byte[] -&gt; unit" Usage="tokenCache.Deserialize state" />
+      <MemberSignature Language="C#" Value="public void Deserialize (byte[] state);" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deserialize(unsigned int8[] state) cil managed" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.Deserialize(System.Byte[])" FrameworkAlternate="azure-dotnet;azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deserialize (state As Byte())" FrameworkAlternate="azure-dotnet" />
+      <MemberSignature Language="F#" Value="member this.Deserialize : byte[] -&gt; unit" Usage="tokenCache.Deserialize state" FrameworkAlternate="azure-dotnet;azure-dotnet-preview" />
+      <MemberSignature Language="C#" Value="public void Deserialize (byte[] adalState);" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Deserialize(unsigned int8[] adalState) cil managed" FrameworkAlternate="azure-dotnet-preview" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Deserialize (adalState As Byte())" FrameworkAlternate="azure-dotnet-preview" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="state" Type="System.Byte[]" />
+        <Parameter Name="state" Type="System.Byte[]" Index="0" FrameworkAlternate="azure-dotnet" />
+        <Parameter Name="adalState" Type="System.Byte[]" Index="0" FrameworkAlternate="azure-dotnet-preview" />
       </Parameters>
       <Docs>
         <param name="state">State of the cache as a blob</param>
+        <param name="adalState">State of the cache in Adal V3+ format as a blob</param>
+        <summary>
+            Deserializes state of the cache. The state should be the blob received earlier by calling the method Serialize.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeserializeAdalAndUnifiedCache">
+      <MemberSignature Language="C#" Value="public void DeserializeAdalAndUnifiedCache (Microsoft.Identity.Core.Cache.CacheData cacheData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void DeserializeAdalAndUnifiedCache(class Microsoft.Identity.Core.Cache.CacheData cacheData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.DeserializeAdalAndUnifiedCache(Microsoft.Identity.Core.Cache.CacheData)" />
+      <MemberSignature Language="F#" Value="member this.DeserializeAdalAndUnifiedCache : Microsoft.Identity.Core.Cache.CacheData -&gt; unit" Usage="tokenCache.DeserializeAdalAndUnifiedCache cacheData" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cacheData" Type="Microsoft.Identity.Core.Cache.CacheData" />
+      </Parameters>
+      <Docs>
+        <param name="cacheData">Serialized token cache <see cref="T:Microsoft.Identity.Core.Cache.CacheData"></see></param>
         <summary>
             Deserializes state of the cache. The state should be the blob received earlier by calling the method Serialize.
             </summary>
@@ -252,7 +292,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -275,7 +316,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCacheItem&gt;</ReturnType>
@@ -298,7 +340,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
-        <AssemblyVersion>3.19.6.14301</AssemblyVersion>
+        <AssemblyVersion>3.19.8.16603</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -309,7 +352,31 @@
             Serializes current state of the cache as a blob. Caller application can persist the blob and update the state of the cache later by 
             passing that blob back in constructor or by calling method Deserialize.
             </summary>
-        <returns>Current state of the cache as a blob</returns>
+        <returns>Current state of the Adal V3+ cache as a blob</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializeAdalAndUnifiedCache">
+      <MemberSignature Language="C#" Value="public Microsoft.Identity.Core.Cache.CacheData SerializeAdalAndUnifiedCache ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Identity.Core.Cache.CacheData SerializeAdalAndUnifiedCache() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.IdentityModel.Clients.ActiveDirectory.TokenCache.SerializeAdalAndUnifiedCache" />
+      <MemberSignature Language="VB.NET" Value="Public Function SerializeAdalAndUnifiedCache () As CacheData" />
+      <MemberSignature Language="F#" Value="member this.SerializeAdalAndUnifiedCache : unit -&gt; Microsoft.Identity.Core.Cache.CacheData" Usage="tokenCache.SerializeAdalAndUnifiedCache " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.IdentityModel.Clients.ActiveDirectory</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Identity.Core.Cache.CacheData</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Serializes current state of the cache as a blob. Caller application can persist the blob and update the state of the cache later by 
+            passing that blob back in constructor or by calling method Deserialize.
+            </summary>
+        <returns>Serialized token cache <see cref="T:Microsoft.Identity.Core.Cache.CacheData" /></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

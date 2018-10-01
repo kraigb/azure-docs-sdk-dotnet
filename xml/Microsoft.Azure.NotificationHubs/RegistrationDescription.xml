@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type RegistrationDescription = class&#xA;    inherit EntityDescription" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -24,9 +25,6 @@
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet">
       <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.AppleTemplateRegistrationDescription))</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
-      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.EmailRegistrationDescription))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet">
       <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.WindowsRegistrationDescription))</AttributeName>
@@ -50,22 +48,23 @@
       <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.AdmTemplateRegistrationDescription))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.BaiduRegistrationDescription))</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.BaiduTemplateRegistrationDescription))</AttributeName>
+    </Attribute>
+    <Attribute FrameworkAlternate="azure-dotnet">
       <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.NokiaXRegistrationDescription))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet">
       <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.NokiaXTemplateRegistrationDescription))</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="azure-dotnet">
-      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.BaiduRegistrationDescription))</AttributeName>
-    </Attribute>
-    <Attribute FrameworkAlternate="azure-dotnet">
-      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.BaiduTemplateRegistrationDescription))</AttributeName>
+      <AttributeName>System.Runtime.Serialization.KnownType(typeof(Microsoft.Azure.NotificationHubs.EmailRegistrationDescription))</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-            Represents a registration description.
-            </summary>
+    <summary>Represents a registration description.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -78,6 +77,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -85,9 +85,7 @@
       </Parameters>
       <Docs>
         <param name="registration">The registration.</param>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.RegistrationDescription" /> class.
-            </summary>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.RegistrationDescription" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -100,6 +98,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -110,12 +109,8 @@
       </Parameters>
       <Docs>
         <param name="descriptionString">The description associated with the registration.</param>
-        <summary>
-            Extracts the registration description from the serialized data.
-            </summary>
-        <returns>
-            The registration description.
-            </returns>
+        <summary>Extracts the registration description from the serialized data.</summary>
+        <returns>The registration description.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -128,6 +123,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -139,12 +135,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the ETag associated with this description.
-            </summary>
-        <value>
-            The ETag associated with this description.
-            </value>
+        <summary>Gets or sets the ETag associated with this description.</summary>
+        <value>The ETag associated with this description.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,6 +149,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -168,36 +161,32 @@
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the expiration time of the registration.
-            </summary>
-        <value>
-            The expiration time of the registration.
-            </value>
+        <summary>Gets or sets the expiration time of the registration.</summary>
+        <value>The expiration time of the registration.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PushVariables">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; PushVariables { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; PushVariables" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.NotificationHubs.RegistrationDescription.PushVariables" />
-      <MemberSignature Language="VB.NET" Value="Public Property PushVariables As IDictionary(Of String, String)" />
-      <MemberSignature Language="F#" Value="member this.PushVariables : System.Collections.Generic.IDictionary&lt;string, string&gt; with get, set" Usage="Microsoft.Azure.NotificationHubs.RegistrationDescription.PushVariables" />
-      <MemberType>Property</MemberType>
+    <Member MemberName="GenerateUrlSafeBase64">
+      <MemberSignature Language="C#" Value="protected static string GenerateUrlSafeBase64 (byte[] hash);" />
+      <MemberSignature Language="ILAsm" Value=".method familystatic hidebysig string GenerateUrlSafeBase64(unsigned int8[] hash) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.NotificationHubs.RegistrationDescription.GenerateUrlSafeBase64(System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Protected Shared Function GenerateUrlSafeBase64 (hash As Byte()) As String" />
+      <MemberSignature Language="F#" Value="static member GenerateUrlSafeBase64 : byte[] -&gt; string" Usage="Microsoft.Azure.NotificationHubs.RegistrationDescription.GenerateUrlSafeBase64 hash" />
+      <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.String</ReturnType>
       </ReturnValue>
+      <Parameters>
+        <Parameter Name="hash" Type="System.Byte[]" />
+      </Parameters>
       <Docs>
-        <summary>
-            Gets or sets a dictionary of push variables associated with property bag.
-            </summary>
-        <value>
-            Push variables associated with property bag string.
-            </value>
+        <param name="hash"> The hash.</param>
+        <summary>Generates a URL safe Base64.</summary>
+        <returns>The generated URL safe Base64.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -210,6 +199,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -221,12 +211,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the registration ID.
-            </summary>
-        <value>
-            The registration ID.
-            </value>
+        <summary>Gets or sets the registration ID.</summary>
+        <value>The registration ID.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -239,6 +225,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -246,12 +233,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-            Serializes the registration description.
-            </summary>
-        <returns>
-            The serialized registration description.
-            </returns>
+        <summary> Serializes the registration description.</summary>
+        <returns>The serialized registration description.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -264,6 +247,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -274,12 +258,8 @@
       </Parameters>
       <Docs>
         <param name="tags">The tags.</param>
-        <summary>
-            Returns the total number of tags.
-            </summary>
-        <returns>
-            The total number of tags.
-            </returns>
+        <summary>Returns the total number of tags.</summary>
+        <returns>The total number of tags.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -292,18 +272,15 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.ISet&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets a set of tags associated with the registration.
-            </summary>
-        <value>
-            A set of tags associated with the registration.
-            </value>
+        <summary>Gets or sets a set of tags associated with the registration.</summary>
+        <value>A set of tags associated with the registration.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -316,6 +293,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -326,12 +304,8 @@
       </Parameters>
       <Docs>
         <param name="tags">The tags to validate.</param>
-        <summary>
-            Validates the given tags.
-            </summary>
-        <returns>
-            true if the tags are validated; otherwise, false.
-            </returns>
+        <summary>Validates the given tags.</summary>
+        <returns>true if the tags are validated; otherwise, false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

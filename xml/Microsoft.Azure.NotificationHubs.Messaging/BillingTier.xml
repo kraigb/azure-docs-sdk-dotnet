@@ -17,9 +17,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-            Enumerates notification hub billing tiers
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -44,9 +42,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-            Basic tier
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Free">
@@ -70,9 +66,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-            Free tier
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Standard">
@@ -96,9 +90,7 @@
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>
-            Standard tier
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
   </Members>

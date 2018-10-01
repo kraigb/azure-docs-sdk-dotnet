@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
     <AssemblyVersion>19.0.2.0</AssemblyVersion>
+    <AssemblyVersion>20.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealth</ReturnType>
@@ -70,12 +72,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BackendHealthAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealth&gt;</ReturnType>
       </ReturnValue>
@@ -121,6 +119,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealth</ReturnType>
@@ -162,12 +161,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginBackendHealthAsync&gt;d__37))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayBackendHealth&gt;</ReturnType>
       </ReturnValue>
@@ -213,6 +208,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGateway</ReturnType>
@@ -252,12 +248,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__29))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
       </ReturnValue>
@@ -301,6 +293,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -335,12 +328,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginDeleteAsync&gt;d__27))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -380,6 +369,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -414,12 +404,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginStartAsync&gt;d__33))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -459,6 +445,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -493,12 +480,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginStopAsync&gt;d__35))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -538,6 +521,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGateway</ReturnType>
@@ -577,12 +561,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;BeginUpdateTagsAsync&gt;d__31))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
       </ReturnValue>
@@ -626,6 +606,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGateway</ReturnType>
@@ -665,12 +646,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
       </ReturnValue>
@@ -714,6 +691,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -748,12 +726,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;DeleteAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -793,6 +767,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGateway</ReturnType>
@@ -828,12 +803,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;GetAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
       </ReturnValue>
@@ -873,6 +844,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy</ReturnType>
@@ -904,12 +876,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;GetSslPredefinedPolicyAsync&gt;d__25))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy&gt;</ReturnType>
       </ReturnValue>
@@ -945,6 +913,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
@@ -977,6 +946,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
@@ -1004,12 +974,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAllAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1041,6 +1007,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
@@ -1072,12 +1039,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAllNextAsync&gt;d__41))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1112,12 +1075,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1153,6 +1112,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGatewayAvailableSslOptions</ReturnType>
@@ -1180,12 +1140,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAvailableSslOptionsAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayAvailableSslOptions&gt;</ReturnType>
       </ReturnValue>
@@ -1217,6 +1173,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy&gt;</ReturnType>
@@ -1244,12 +1201,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAvailableSslPredefinedPoliciesAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1281,6 +1234,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy&gt;</ReturnType>
@@ -1312,12 +1266,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAvailableSslPredefinedPoliciesNextAsync&gt;d__43))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewaySslPredefinedPolicy&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1353,6 +1303,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGatewayAvailableWafRuleSetsResult</ReturnType>
@@ -1380,12 +1331,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListAvailableWafRuleSetsAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGatewayAvailableWafRuleSetsResult&gt;</ReturnType>
       </ReturnValue>
@@ -1417,6 +1364,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
@@ -1448,12 +1396,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;ListNextAsync&gt;d__39))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1489,6 +1433,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1523,12 +1468,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;StartAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1568,6 +1509,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1602,12 +1544,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;StopAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -1647,6 +1585,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Network.Models.ApplicationGateway</ReturnType>
@@ -1686,12 +1625,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Network</AssemblyName>
         <AssemblyVersion>19.0.2.0</AssemblyVersion>
+        <AssemblyVersion>20.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Network.ApplicationGatewaysOperationsExtensions/&lt;UpdateTagsAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Network.Models.ApplicationGateway&gt;</ReturnType>
       </ReturnValue>

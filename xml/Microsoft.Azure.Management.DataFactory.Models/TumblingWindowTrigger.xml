@@ -6,8 +6,8 @@
   <TypeSignature Language="F#" Value="type TumblingWindowTrigger = class&#xA;    inherit Trigger" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.Trigger</BaseTypeName>
@@ -35,8 +35,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,15 +47,14 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TumblingWindowTrigger (Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference pipeline, string frequency, int interval, DateTime startTime, int maxConcurrency, System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string description = null, string runtimeState = null, Nullable&lt;DateTime&gt; endTime = null, object delay = null, Microsoft.Azure.Management.DataFactory.Models.RetryPolicy retryPolicy = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference pipeline, string frequency, int32 interval, valuetype System.DateTime startTime, int32 maxConcurrency, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, string runtimeState, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; endTime, object delay, class Microsoft.Azure.Management.DataFactory.Models.RetryPolicy retryPolicy) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger.#ctor(Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference,System.String,System.Int32,System.DateTime,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Nullable{System.DateTime},System.Object,Microsoft.Azure.Management.DataFactory.Models.RetryPolicy)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger : Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference * string * int * DateTime * int * System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Nullable&lt;DateTime&gt; * obj * Microsoft.Azure.Management.DataFactory.Models.RetryPolicy -&gt; Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger" Usage="new Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger (pipeline, frequency, interval, startTime, maxConcurrency, additionalProperties, description, runtimeState, endTime, delay, retryPolicy)" />
+      <MemberSignature Language="C#" Value="public TumblingWindowTrigger (Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference pipeline, string frequency, int interval, DateTime startTime, int maxConcurrency, System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = null, string description = null, string runtimeState = null, Nullable&lt;DateTime&gt; endTime = null, object delay = null, Microsoft.Azure.Management.DataFactory.Models.RetryPolicy retryPolicy = null, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; dependsOn = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference pipeline, string frequency, int32 interval, valuetype System.DateTime startTime, int32 maxConcurrency, class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, string runtimeState, valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; endTime, object delay, class Microsoft.Azure.Management.DataFactory.Models.RetryPolicy retryPolicy, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; dependsOn) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger.#ctor(Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference,System.String,System.Int32,System.DateTime,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,System.Nullable{System.DateTime},System.Object,Microsoft.Azure.Management.DataFactory.Models.RetryPolicy,System.Collections.Generic.IList{Microsoft.Azure.Management.DataFactory.Models.DependencyReference})" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger : Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference * string * int * DateTime * int * System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Nullable&lt;DateTime&gt; * obj * Microsoft.Azure.Management.DataFactory.Models.RetryPolicy * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; -&gt; Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger" Usage="new Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger (pipeline, frequency, interval, startTime, maxConcurrency, additionalProperties, description, runtimeState, endTime, delay, retryPolicy, dependsOn)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
-        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="pipeline" Type="Microsoft.Azure.Management.DataFactory.Models.TriggerPipelineReference" />
@@ -69,6 +68,7 @@
         <Parameter Name="endTime" Type="System.Nullable&lt;System.DateTime&gt;" />
         <Parameter Name="delay" Type="System.Object" />
         <Parameter Name="retryPolicy" Type="Microsoft.Azure.Management.DataFactory.Models.RetryPolicy" />
+        <Parameter Name="dependsOn" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt;" />
       </Parameters>
       <Docs>
         <param name="pipeline">Pipeline for which runs are created when an
@@ -99,6 +99,8 @@
             ((\d+)\.)?(\d\d):(60|([0-5][0-9])):(60|([0-5][0-9])).</param>
         <param name="retryPolicy">Retry policy that will be applied for
             failed pipeline runs.</param>
+        <param name="dependsOn">Triggers that this trigger depends on. Only
+            tumbling window triggers are supported.</param>
         <summary>
             Initializes a new instance of the TumblingWindowTrigger class.
             </summary>
@@ -114,8 +116,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -137,6 +139,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="DependsOn">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; DependsOn { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; DependsOn" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger.DependsOn" />
+      <MemberSignature Language="VB.NET" Value="Public Property DependsOn As IList(Of DependencyReference)" />
+      <MemberSignature Language="F#" Value="member this.DependsOn : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt; with get, set" Usage="Microsoft.Azure.Management.DataFactory.Models.TumblingWindowTrigger.DependsOn" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="typeProperties.dependsOn")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.DataFactory.Models.DependencyReference&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets triggers that this trigger depends on. Only tumbling
+            window triggers are supported.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="EndTime">
       <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; EndTime { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; EndTime" />
@@ -146,8 +176,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -176,8 +206,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -205,8 +235,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -234,8 +264,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -263,8 +293,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -292,8 +322,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -321,8 +351,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -351,8 +381,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

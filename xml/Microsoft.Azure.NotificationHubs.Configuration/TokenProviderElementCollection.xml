@@ -18,9 +18,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-            Represents a collection of elements for the token provider.
-            </summary>
+    <summary>Represents a collection of elements for the token provider.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -36,7 +34,7 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.Configuration.TokenProviderElementCollection" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -56,12 +54,8 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>
-            When overridden in a derived class, creates a new <see cref="T:System.Configuration.ConfigurationElement" />.
-            </summary>
-        <returns>
-            A new <see cref="T:System.Configuration.ConfigurationElement" />.
-            </returns>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -83,15 +77,10 @@
         <Parameter Name="element" Type="System.Configuration.ConfigurationElement" />
       </Parameters>
       <Docs>
-        <param name="element">The <see cref="T:System.Configuration.ConfigurationElement" /> to return the key for.</param>
-        <summary>
-            Gets the element key for a specified configuration element when overridden in a derived class.
-            </summary>
-        <returns>
-            An <see cref="T:System.Object" /> that acts as the key for the specified <see cref="T:System.Configuration.ConfigurationElement" />.
-            </returns>
+        <param name="element">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <exception cref="T:System.Configuration.ConfigurationErrorsException" />
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -113,12 +102,8 @@
       </Parameters>
       <Docs>
         <param name="name">The name of the item.</param>
-        <summary>
-            Gets an item in the collection.
-            </summary>
-        <value>
-            An item in the collection.
-            </value>
+        <summary>Gets an item in the collection.</summary>
+        <value>An item in the collection.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

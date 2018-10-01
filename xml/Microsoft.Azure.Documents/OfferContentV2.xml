@@ -6,11 +6,13 @@
   <TypeSignature Language="F#" Value="type OfferContentV2 = class&#xA;    inherit JsonSerializable" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-    <AssemblyVersion>1.9.1.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-    <AssemblyVersion>1.22.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Documents.JsonSerializable</BaseTypeName>
@@ -31,11 +33,13 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.9.1.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.22.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -57,11 +61,13 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.9.1.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.22.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="offerThroughput" Type="System.Int32" />
@@ -86,11 +92,13 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.9.1.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.22.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="offerThroughput" Type="System.Int32" />
@@ -100,7 +108,8 @@
         <param name="offerThroughput">To be added.</param>
         <param name="offerEnableRUPerMinuteThroughput">To be added.</param>
         <summary>
-            Constructor accepting offer throughput and Request Units(RU)/Minute throughput is enabled or disabled.
+            Constructor accepting offer throughput, Request Units(RU)/Minute throughput is enabled or disabled
+            and auto scale is enabled or disabled.
             </summary>
         <remarks>
             The <see cref="T:Microsoft.Azure.Documents.OfferContentV2" /> class 
@@ -117,11 +126,13 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.9.1.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.22.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -148,11 +159,13 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.DocumentDB.Core</AssemblyName>
-        <AssemblyVersion>1.9.1.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.1.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
-        <AssemblyVersion>1.22.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">

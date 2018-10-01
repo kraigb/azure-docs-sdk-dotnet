@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
     <AssemblyVersion>1.3.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TKey" />
@@ -36,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.ListShardMap&lt;TKey&gt;</ReturnType>
@@ -59,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.ShardMap</ReturnType>
@@ -82,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -112,6 +116,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;</ReturnType>
@@ -140,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -170,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;</ReturnType>
@@ -196,6 +203,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.MappingLockToken</ReturnType>
@@ -222,6 +230,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -250,6 +259,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -280,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -313,6 +324,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -348,6 +360,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -381,6 +394,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;</ReturnType>
@@ -407,6 +421,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;</ReturnType>
@@ -433,6 +448,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -475,6 +491,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -519,6 +536,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -562,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -607,13 +626,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="TKey" />
-        <Parameter Name="pointMapping" Type="Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;&amp;" RefType="out" />
+        <Parameter Name="pointMapping" Type="Microsoft.Azure.SqlDatabase.ElasticScale.ShardManagement.PointMapping&lt;TKey&gt;" RefType="out" />
       </Parameters>
       <Docs>
         <param name="key">Input key value.</param>
@@ -635,6 +655,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -663,6 +684,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -695,6 +717,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -728,6 +751,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.SqlDatabase.ElasticScale.Client</AssemblyName>
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">

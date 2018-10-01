@@ -12,12 +12,17 @@
     <BaseTypeName>System.Fabric.FabricException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             This exception is thrown by actor runtime when more than one reentrant call chain is active for an
             actor at the same time.
             <para>
-            This can happen in scenario where actor A calls actor B, C and D in parallel and then B, C and D 
+            This can happen in scenario where actor A calls actor B, C and D in parallel and then B, C and D
             try to call back A at the same time.
             </para></summary>
     <remarks>To be added.</remarks>

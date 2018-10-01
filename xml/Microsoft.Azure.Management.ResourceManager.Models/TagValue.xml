@@ -1,17 +1,22 @@
 ﻿<Type Name="TagValue" FullName="Microsoft.Azure.Management.ResourceManager.Models.TagValue">
-  <TypeSignature Language="C#" Value="public class TagValue" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TagValue extends System.Object" />
+  <TypeSignature Language="C#" Value="public class TagValue : Microsoft.Rest.Azure.IResource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TagValue extends System.Object implements class Microsoft.Rest.Azure.IResource" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.ResourceManager.Models.TagValue" />
-  <TypeSignature Language="VB.NET" Value="Public Class TagValue" />
-  <TypeSignature Language="F#" Value="type TagValue = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class TagValue&#xA;Implements IResource" />
+  <TypeSignature Language="F#" Value="type TagValue = class&#xA;    interface IResource" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
-  <Interfaces />
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Rest.Azure.IResource</InterfaceName>
+    </Interface>
+  </Interfaces>
   <Docs>
     <summary>
             Tag information.
@@ -28,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -73,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -91,15 +99,16 @@
       </Docs>
     </Member>
     <Member MemberName="Id">
-      <MemberSignature Language="C#" Value="public string Id { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Id" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.ResourceManager.Models.TagValue.Id" />
-      <MemberSignature Language="VB.NET" Value="Public Property Id As String" />
-      <MemberSignature Language="F#" Value="member this.Id : string with get, set" Usage="Microsoft.Azure.Management.ResourceManager.Models.TagValue.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.Azure.Management.ResourceManager.Models.TagValue.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -111,7 +120,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the tag ID.
+            Gets the tag ID.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -127,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.ResourceManager</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">

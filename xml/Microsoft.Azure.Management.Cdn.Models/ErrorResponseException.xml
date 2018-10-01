@@ -7,13 +7,22 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Rest.RestException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Exception thrown for an invalid response with ErrorResponse
+            information.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,10 +35,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -43,13 +55,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="message">The exception message.</param>
+        <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -85,15 +100,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
         <Parameter Name="innerException" Type="System.Exception" />
       </Parameters>
       <Docs>
-        <param name="message">To be added.</param>
-        <param name="innerException">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="message">The exception message.</param>
+        <param name="innerException">Inner exception.</param>
+        <summary>
+            Initializes a new instance of the ErrorResponseException class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,12 +125,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.Models.ErrorResponse</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets the body object.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -152,12 +173,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.HttpRequestMessageWrapper</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets information about the associated HTTP request.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -172,12 +196,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.HttpResponseMessageWrapper</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets information about the associated HTTP response.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

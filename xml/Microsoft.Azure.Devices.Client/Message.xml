@@ -1,12 +1,17 @@
 ﻿<Type Name="Message" FullName="Microsoft.Azure.Devices.Client.Message">
-  <TypeSignature Language="C#" Value="public sealed class Message : IDisposable, Microsoft.Azure.Devices.Client.IReadOnlyIndicator" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Message extends System.Object implements class Microsoft.Azure.Devices.Client.IReadOnlyIndicator, class System.IDisposable" />
+  <TypeSignature Language="C#" Value="public sealed class Message : Microsoft.Azure.Devices.Client.IReadOnlyIndicator" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit Message extends System.Object implements class Microsoft.Azure.Devices.Client.IReadOnlyIndicator" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Devices.Client.Message" />
-  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Message&#xA;Implements IDisposable, IReadOnlyIndicator" />
-  <TypeSignature Language="F#" Value="type Message = class&#xA;    interface IReadOnlyIndicator&#xA;    interface IDisposable" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class Message&#xA;Implements IReadOnlyIndicator" />
+  <TypeSignature Language="F#" Value="type Message = class&#xA;    interface IReadOnlyIndicator" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -14,9 +19,6 @@
   <Interfaces>
     <Interface>
       <InterfaceName>Microsoft.Azure.Devices.Client.IReadOnlyIndicator</InterfaceName>
-    </Interface>
-    <Interface>
-      <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
@@ -34,7 +36,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,7 +60,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="byteArray" Type="System.Byte[]" />
@@ -76,7 +88,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />
@@ -98,13 +115,60 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionDeviceId">
+      <MemberSignature Language="C#" Value="public string ConnectionDeviceId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionDeviceId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.ConnectionDeviceId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionDeviceId As String" />
+      <MemberSignature Language="F#" Value="member this.ConnectionDeviceId : string" Usage="Microsoft.Azure.Devices.Client.Message.ConnectionDeviceId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the device Id from which this message was sent, if there is one. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConnectionModuleId">
+      <MemberSignature Language="C#" Value="public string ConnectionModuleId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConnectionModuleId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.ConnectionModuleId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionModuleId As String" />
+      <MemberSignature Language="F#" Value="member this.ConnectionModuleId : string" Usage="Microsoft.Azure.Devices.Client.Message.ConnectionModuleId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the module Id from which this message was sent, if there is one.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -118,7 +182,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -140,7 +205,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -162,7 +228,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -184,7 +255,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -206,7 +278,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt32</ReturnType>
@@ -231,7 +308,8 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -245,18 +323,23 @@
       </Docs>
     </Member>
     <Member MemberName="EnqueuedTimeUtc">
-      <MemberSignature Language="C#" Value="public DateTime EnqueuedTimeUtc { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime EnqueuedTimeUtc" />
+      <MemberSignature Language="C#" Value="public DateTimeOffset EnqueuedTimeUtc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset EnqueuedTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.EnqueuedTimeUtc" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnqueuedTimeUtc As DateTime" />
-      <MemberSignature Language="F#" Value="member this.EnqueuedTimeUtc : DateTime" Usage="Microsoft.Azure.Devices.Client.Message.EnqueuedTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnqueuedTimeUtc As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.EnqueuedTimeUtc : DateTimeOffset" Usage="Microsoft.Azure.Devices.Client.Message.EnqueuedTimeUtc" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.DateTime</ReturnType>
+        <ReturnType>System.DateTimeOffset</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -267,18 +350,23 @@
       </Docs>
     </Member>
     <Member MemberName="ExpiryTimeUtc">
-      <MemberSignature Language="C#" Value="public DateTime ExpiryTimeUtc { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime ExpiryTimeUtc" />
+      <MemberSignature Language="C#" Value="public DateTimeOffset ExpiryTimeUtc { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTimeOffset ExpiryTimeUtc" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.ExpiryTimeUtc" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiryTimeUtc As DateTime" />
-      <MemberSignature Language="F#" Value="member this.ExpiryTimeUtc : DateTime" Usage="Microsoft.Azure.Devices.Client.Message.ExpiryTimeUtc" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExpiryTimeUtc As DateTimeOffset" />
+      <MemberSignature Language="F#" Value="member this.ExpiryTimeUtc : DateTimeOffset" Usage="Microsoft.Azure.Devices.Client.Message.ExpiryTimeUtc" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.DateTime</ReturnType>
+        <ReturnType>System.DateTimeOffset</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -297,7 +385,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -322,7 +411,12 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -337,6 +431,29 @@
         <exception cref="T:System.ObjectDisposedException">throws if the event data has already been disposed.</exception>
       </Docs>
     </Member>
+    <Member MemberName="InputName">
+      <MemberSignature Language="C#" Value="public string InputName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string InputName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.InputName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InputName As String" />
+      <MemberSignature Language="F#" Value="member this.InputName : string" Usage="Microsoft.Azure.Devices.Client.Message.InputName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Specifies the input name on which the message was sent, if there was one.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="LockToken">
       <MemberSignature Language="C#" Value="public string LockToken { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string LockToken" />
@@ -346,7 +463,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,7 +490,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -393,7 +520,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -411,14 +539,19 @@
       <MemberSignature Language="ILAsm" Value=".property instance bool Microsoft.Azure.Devices.Client.IReadOnlyIndicator.IsReadOnly" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Devices.Client.Message.Microsoft#Azure#Devices#Client#IReadOnlyIndicator#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements IReadOnlyIndicator.IsReadOnly" />
-      <MemberSignature Language="F#" Usage="Microsoft.Azure.Devices.Client.Message.Microsoft.Azure.Devices.Client.IReadOnlyIndicator.IsReadOnly" />
+      <MemberSignature Language="F#" Usage="Microsoft.Azure.Devices.Client.IReadOnlyIndicator.IsReadOnly" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Microsoft.Azure.Devices.Client.IReadOnlyIndicator.IsReadOnly</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -438,7 +571,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -460,7 +598,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt64</ReturnType>
@@ -482,7 +625,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -504,7 +652,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Devices.Client.PCL</AssemblyName>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -7,10 +7,13 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            EdgeNodesOperations operations.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>

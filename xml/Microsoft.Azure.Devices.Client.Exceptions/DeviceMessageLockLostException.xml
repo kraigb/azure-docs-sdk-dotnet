@@ -6,12 +6,18 @@
   <TypeSignature Language="F#" Value="type DeviceMessageLockLostException = class&#xA;    inherit IotHubException" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-    <AssemblyVersion>1.7.1.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
+    <AssemblyVersion>1.18.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Devices.Client.Exceptions.IotHubException</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="azure-dotnet">
+      <AttributeName>Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
             The exception that is thrown when an attempt to communicate with a device fails because the lock token was lost (if the connection is lost and regained for example). This timeout has the same effect as if the message was abandonned.
@@ -30,7 +36,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
@@ -52,7 +59,8 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices.Client</AssemblyName>
-        <AssemblyVersion>1.7.1.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
+        <AssemblyVersion>1.18.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="deviceId" Type="System.String" />

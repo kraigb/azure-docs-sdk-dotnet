@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Rest.ServiceClient&lt;Microsoft.Azure.Management.Cdn.CdnManagementClient&gt;</BaseTypeName>
@@ -26,7 +27,11 @@
     </Interface>
   </Interfaces>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Use these APIs to manage Azure CDN resources through the Azure Resource
+            Manager. You must make sure that requests made to these resources are
+            secure.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,19 +45,24 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -66,22 +76,32 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="credentials">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="credentials">
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -94,21 +114,28 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="rootHandler" Type="System.Net.Http.HttpClientHandler" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="rootHandler">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="rootHandler">
+            Optional. The http client handler used to handle http transport.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -122,22 +149,32 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="baseUri" Type="System.Uri" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="baseUri">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="baseUri">
+            Optional. The base URI of the service.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -150,24 +187,36 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
         <Parameter Name="rootHandler" Type="System.Net.Http.HttpClientHandler" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="credentials">To be added.</param>
-        <param name="rootHandler">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="credentials">
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+        <param name="rootHandler">
+            Optional. The http client handler used to handle http transport.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -180,24 +229,36 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="baseUri" Type="System.Uri" />
         <Parameter Name="credentials" Type="Microsoft.Rest.ServiceClientCredentials" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="baseUri">To be added.</param>
-        <param name="credentials">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="baseUri">
+            Optional. The base URI of the service.
+            </param>
+        <param name="credentials">
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -210,24 +271,36 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="baseUri" Type="System.Uri" />
         <Parameter Name="rootHandler" Type="System.Net.Http.HttpClientHandler" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="baseUri">To be added.</param>
-        <param name="rootHandler">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="baseUri">
+            Optional. The base URI of the service.
+            </param>
+        <param name="rootHandler">
+            Optional. The http client handler used to handle http transport.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -240,6 +313,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="baseUri" Type="System.Uri" />
@@ -247,19 +321,32 @@
         <Parameter Name="rootHandler" Type="System.Net.Http.HttpClientHandler" />
         <Parameter Name="handlers" Type="System.Net.Http.DelegatingHandler[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
         </Parameter>
       </Parameters>
       <Docs>
-        <param name="baseUri">To be added.</param>
-        <param name="credentials">To be added.</param>
-        <param name="rootHandler">To be added.</param>
-        <param name="handlers">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="baseUri">
+            Optional. The base URI of the service.
+            </param>
+        <param name="credentials">
+            Required. Credentials needed for the client to connect to Azure.
+            </param>
+        <param name="rootHandler">
+            Optional. The http client handler used to handle http transport.
+            </param>
+        <param name="handlers">
+            Optional. The delegating handlers to add to the http client pipeline.
+            </param>
+        <summary>
+            Initializes a new instance of the CdnManagementClient class.
+            </summary>
         <remarks>To be added.</remarks>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
       </Docs>
     </Member>
     <Member MemberName="AcceptLanguage">
@@ -275,12 +362,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets the preferred language for the response.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -295,12 +385,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Version of the API to be used with the client request. Current version is
+            2017-04-02.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -318,12 +412,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The base URI of the service.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -340,12 +437,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CdnManagementClient/&lt;CheckNameAvailabilityWithHttpMessagesAsync&gt;d__66))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.Cdn.Models.CheckNameAvailabilityOutput&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -355,12 +448,36 @@
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="name">To be added.</param>
-        <param name="customHeaders">To be added.</param>
-        <param name="cancellationToken">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="name">
+            The resource name to validate.
+            </param>
+        <param name="customHeaders">
+            Headers that will be added to request.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Check the availability of a resource name. This is needed for resources
+            where name is globally unique, such as a CDN endpoint.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Azure.Management.Cdn.Models.ErrorResponseException">
+            Thrown when the operation returned an invalid status code
+            </exception>
+        <exception cref="T:Microsoft.Rest.SerializationException">
+            Thrown when unable to deserialize the response
+            </exception>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown when a required parameter is null
+            </exception>
+        <exception cref="T:System.ArgumentNullException">
+            Thrown when a required parameter is null
+            </exception>
+        <return>
+            A response object containing the response body and response headers.
+            </return>
       </Docs>
     </Member>
     <Member MemberName="CheckResourceUsageNextWithHttpMessagesAsync">
@@ -376,11 +493,6 @@
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CdnManagementClient/&lt;CheckResourceUsageNextWithHttpMessagesAsync&gt;d__69))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.ResourceUsage&gt;&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -411,11 +523,6 @@
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CdnManagementClient/&lt;CheckResourceUsageWithHttpMessagesAsync&gt;d__67))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.ResourceUsage&gt;&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -441,12 +548,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.ServiceClientCredentials</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Credentials needed for the client to connect to Azure.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -461,12 +571,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.ICustomDomainsOperations</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the ICustomDomainsOperations.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -481,12 +594,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets json deserialization settings.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -501,12 +617,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.IEdgeNodesOperations</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the IEdgeNodesOperations.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -521,12 +640,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.IEndpointsOperations</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the IEndpointsOperations.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -545,12 +667,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            When set to true a unique x-ms-client-request-id value is generated and
+            included in each request. Default is true.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -568,11 +694,6 @@
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CdnManagementClient/&lt;ListOperationsNextWithHttpMessagesAsync&gt;d__70))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Operation&gt;&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -603,11 +724,6 @@
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.Cdn.CdnManagementClient/&lt;ListOperationsWithHttpMessagesAsync&gt;d__68))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Cdn.Models.Operation&gt;&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -637,12 +753,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets the retry timeout in seconds for Long Running Operations.
+            Default value is 30.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -657,12 +777,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.IOriginsOperations</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the IOriginsOperations.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -677,12 +800,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Cdn.IProfilesOperations</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the IProfilesOperations.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -697,12 +823,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets or sets json serialization settings.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -720,12 +849,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Cdn</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Azure Subscription ID.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

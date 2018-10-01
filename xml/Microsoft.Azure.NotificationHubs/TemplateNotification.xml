@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type TemplateNotification = class&#xA;    inherit Notification" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -13,9 +14,7 @@
   </Base>
   <Interfaces />
   <Docs>
-    <summary>
-            Represents a template notification.
-            </summary>
+    <summary>Represents a template notification.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,6 +27,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -35,9 +35,7 @@
       </Parameters>
       <Docs>
         <param name="templateProperties">The template properties.</param>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.TemplateNotification" /> class.
-            </summary>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.TemplateNotification" /> class.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">properties</exception>
       </Docs>
@@ -51,6 +49,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -65,9 +64,7 @@
       <Docs>
         <param name="templateProperties">The template properties.</param>
         <param name="tag">The notification tag.</param>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.TemplateNotification" /> class.
-            </summary>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.TemplateNotification" /> class.</summary>
         <remarks>To be added.</remarks>
         <exception cref="T:System.ArgumentNullException">properties</exception>
       </Docs>
@@ -81,6 +78,7 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -103,6 +101,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

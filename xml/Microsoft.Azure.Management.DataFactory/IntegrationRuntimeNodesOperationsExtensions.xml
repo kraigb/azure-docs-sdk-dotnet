@@ -6,8 +6,8 @@
   <TypeSignature Language="F#" Value="type IntegrationRuntimeNodesOperationsExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-    <AssemblyVersion>0.8.0.0</AssemblyVersion>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,8 +29,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -72,14 +72,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions/&lt;DeleteAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -117,6 +112,97 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Get">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode Get (this Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode Get(class Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions.Get(Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Get (operations As IIntegrationRuntimeNodesOperations, resourceGroupName As String, factoryName As String, integrationRuntimeName As String, nodeName As String) As SelfHostedIntegrationRuntimeNode" />
+      <MemberSignature Language="F#" Value="static member Get : Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations * string * string * string * string -&gt; Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode" Usage="Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions.Get (operations, resourceGroupName, factoryName, integrationRuntimeName, nodeName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="integrationRuntimeName" Type="System.String" />
+        <Parameter Name="nodeName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The resource group name.
+            </param>
+        <param name="factoryName">
+            The factory name.
+            </param>
+        <param name="integrationRuntimeName">
+            The integration runtime name.
+            </param>
+        <param name="nodeName">
+            The integration runtime node name.
+            </param>
+        <summary>
+            Gets a self-hosted integration runtime node.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; GetAsync (this Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt; GetAsync(class Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions.GetAsync(Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member GetAsync : Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations * string * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt;" Usage="Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions.GetAsync (operations, resourceGroupName, factoryName, integrationRuntimeName, nodeName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="factoryName" Type="System.String" />
+        <Parameter Name="integrationRuntimeName" Type="System.String" />
+        <Parameter Name="nodeName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The resource group name.
+            </param>
+        <param name="factoryName">
+            The factory name.
+            </param>
+        <param name="integrationRuntimeName">
+            The integration runtime name.
+            </param>
+        <param name="nodeName">
+            The integration runtime node name.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Gets a self-hosted integration runtime node.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetIpAddress">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeIpAddress GetIpAddress (this Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeIpAddress GetIpAddress(class Microsoft.Azure.Management.DataFactory.IIntegrationRuntimeNodesOperations operations, string resourceGroupName, string factoryName, string integrationRuntimeName, string nodeName) cil managed" />
@@ -126,8 +212,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeIpAddress</ReturnType>
@@ -170,14 +256,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions/&lt;GetIpAddressAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeNodeIpAddress&gt;</ReturnType>
       </ReturnValue>
@@ -223,8 +304,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode</ReturnType>
@@ -271,14 +352,9 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>0.8.0.0</AssemblyVersion>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.DataFactory.IntegrationRuntimeNodesOperationsExtensions/&lt;UpdateAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.DataFactory.Models.SelfHostedIntegrationRuntimeNode&gt;</ReturnType>
       </ReturnValue>

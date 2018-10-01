@@ -1,15 +1,15 @@
 ﻿<Type Name="AgentRegistrationRegenerateKeyParameter" FullName="Microsoft.Azure.Management.Automation.Models.AgentRegistrationRegenerateKeyParameter">
-  <TypeSignature Language="C#" Value="public class AgentRegistrationRegenerateKeyParameter : Microsoft.Azure.Management.Automation.Models.ResourceCreateOrUpdateParameterBase" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AgentRegistrationRegenerateKeyParameter extends Microsoft.Azure.Management.Automation.Models.ResourceCreateOrUpdateParameterBase" />
+  <TypeSignature Language="C#" Value="public class AgentRegistrationRegenerateKeyParameter" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AgentRegistrationRegenerateKeyParameter extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Management.Automation.Models.AgentRegistrationRegenerateKeyParameter" />
-  <TypeSignature Language="VB.NET" Value="Public Class AgentRegistrationRegenerateKeyParameter&#xA;Inherits ResourceCreateOrUpdateParameterBase" />
-  <TypeSignature Language="F#" Value="type AgentRegistrationRegenerateKeyParameter = class&#xA;    inherit ResourceCreateOrUpdateParameterBase" />
+  <TypeSignature Language="VB.NET" Value="Public Class AgentRegistrationRegenerateKeyParameter" />
+  <TypeSignature Language="F#" Value="type AgentRegistrationRegenerateKeyParameter = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Microsoft.Azure.Management.Automation.Models.ResourceCreateOrUpdateParameterBase</BaseTypeName>
+    <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -27,7 +27,7 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,17 +47,18 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="keyName" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="keyName">To be added.</param>
+        <param name="keyName">Gets or sets the agent registration key name
+            - primary or secondary. Possible values include: 'primary',
+            'secondary'</param>
         <summary>
             Initializes a new instance of the
-            AgentRegistrationRegenerateKeyParameter class with required
-            arguments.
+            AgentRegistrationRegenerateKeyParameter class.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -71,18 +72,48 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.1.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="azure-dotnet">
+          <AttributeName>Newtonsoft.Json.JsonProperty(PropertyName="keyName")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Required. Gets or sets the agent registration key name - Primary or
-            Secondary.
+            Gets or sets the agent registration key name - primary or
+            secondary. Possible values include: 'primary', 'secondary'
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Validate">
+      <MemberSignature Language="C#" Value="public virtual void Validate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Validate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Automation.Models.AgentRegistrationRegenerateKeyParameter.Validate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Validate ()" />
+      <MemberSignature Language="F#" Value="abstract member Validate : unit -&gt; unit&#xA;override this.Validate : unit -&gt; unit" Usage="agentRegistrationRegenerateKeyParameter.Validate " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Automation</AssemblyName>
+        <AssemblyVersion>3.0.1.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Validate the object.
+            </summary>
+        <remarks>To be added.</remarks>
+        <exception cref="T:Microsoft.Rest.ValidationException">
+            Thrown if validation fails
+            </exception>
       </Docs>
     </Member>
   </Members>

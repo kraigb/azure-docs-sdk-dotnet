@@ -6,13 +6,15 @@
   <TypeSignature Language="F#" Value="type ClusterNodeType = " />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            A list of roles in a HDInsight Hadoop cluster to run config action on.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -25,14 +27,16 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterNodeType</ReturnType>
       </ReturnValue>
       <MemberValue>3</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The edge nodes of the cluster.
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="HeadNode">
@@ -44,14 +48,16 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterNodeType</ReturnType>
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary> 
+            The head nodes of the cluster.
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="WorkerNode">
@@ -63,14 +69,16 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterNodeType</ReturnType>
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary> 
+            The worker nodes of the cluster.
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="ZookeeperNode">
@@ -82,14 +90,16 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.HDInsight</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.HDInsight.Models.ClusterNodeType</ReturnType>
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The zookeper nodes of the cluster.
+            </summary>
       </Docs>
     </Member>
   </Members>

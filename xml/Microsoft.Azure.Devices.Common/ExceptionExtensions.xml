@@ -6,7 +6,8 @@
   <TypeSignature Language="F#" Value="type ExceptionExtensions = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-    <AssemblyVersion>1.6.1.0</AssemblyVersion>
+    <AssemblyVersion>1.16.0.0</AssemblyVersion>
+    <AssemblyVersion>1.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,7 +27,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -35,7 +37,7 @@
         <Parameter Name="ex" Type="System.Exception" RefType="this" />
         <Parameter Name="errorCodeList" Type="Microsoft.Azure.Devices.Common.Exceptions.ErrorCode[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -57,7 +59,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -80,7 +83,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -103,7 +107,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -126,7 +131,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -149,7 +155,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -172,7 +179,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="azure-dotnet">
@@ -200,7 +208,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Exception&gt;</ReturnType>
@@ -209,7 +218,7 @@
         <Parameter Name="exception" Type="System.Exception" RefType="this" />
         <Parameter Name="targetTypes" Type="System.Type[]">
           <Attributes>
-            <Attribute>
+            <Attribute FrameworkAlternate="azure-dotnet">
               <AttributeName>System.ParamArray</AttributeName>
             </Attribute>
           </Attributes>
@@ -231,7 +240,8 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
-        <AssemblyVersion>1.6.1.0</AssemblyVersion>
+        <AssemblyVersion>1.16.0.0</AssemblyVersion>
+        <AssemblyVersion>1.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;TException&gt;</ReturnType>

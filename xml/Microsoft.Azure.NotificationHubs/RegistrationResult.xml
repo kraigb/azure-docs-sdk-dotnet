@@ -6,6 +6,7 @@
   <TypeSignature Language="F#" Value="type RegistrationResult = class" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>2.16.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -18,9 +19,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>
-            Represents the result of the registration.
-            </summary>
+    <summary>Represents the result of the registration.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -32,11 +31,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>Initializes a new instance of the <see cref="T:Microsoft.Azure.NotificationHubs.RegistrationResult" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -49,6 +49,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -60,12 +61,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the application platform.
-            </summary>
-        <value>
-            The application platform.
-            </value>
+        <summary>Gets or sets the application platform.</summary>
+        <value>The application platform.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -78,6 +75,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -89,12 +87,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the outcome of the registration.
-            </summary>
-        <value>
-            The outcome of the registration.
-            </value>
+        <summary>Gets or sets the outcome of the registration.</summary>
+        <value>The outcome of the registration.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -107,6 +101,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -118,12 +113,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the PNS handle.
-            </summary>
-        <value>
-            The PNS handle.
-            </value>
+        <summary>Gets or sets the PNS handle.</summary>
+        <value>The PNS handle.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -136,6 +127,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.NotificationHubs</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.16.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -147,12 +139,8 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>
-            Gets or sets the registration ID.
-            </summary>
-        <value>
-            The registration ID.
-            </value>
+        <summary>Gets or sets the registration ID.</summary>
+        <value>The registration ID.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

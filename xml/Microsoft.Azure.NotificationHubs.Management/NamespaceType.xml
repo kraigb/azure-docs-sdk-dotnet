@@ -12,9 +12,7 @@
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>
-            Enumeratess namespace types
-            </summary>
+    <summary>To be added.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -34,9 +32,7 @@
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>
-            Messaging: Message entities (Queue/topic/relay/eventhub) can be created under this type of namespace
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="Mixed">
@@ -55,9 +51,7 @@
       </ReturnValue>
       <MemberValue>2</MemberValue>
       <Docs>
-        <summary>
-            Mixed: Both Messaging entities and NotificationHub entity can be created under this type of namespace  (obsolete)
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="NotificationHub">
@@ -76,9 +70,7 @@
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>
-            Notification hub: Only notificationHub entity can be created under this type of namespace
-            </summary>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
   </Members>

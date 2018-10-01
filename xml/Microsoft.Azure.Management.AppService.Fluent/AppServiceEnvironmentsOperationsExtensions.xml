@@ -19,6 +19,88 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="BeginChangeVnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; BeginChangeVnetAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile vnetInfo, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; BeginChangeVnetAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile vnetInfo, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.BeginChangeVnetAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginChangeVnetAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.BeginChangeVnetAsync (operations, resourceGroupName, name, vnetInfo, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="vnetInfo" Type="Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group to which the resource belongs.
+            </param>
+        <param name="name">
+            Name of the App Service Environment.
+            </param>
+        <param name="vnetInfo">
+            Details for the new virtual network.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Move an App Service Environment to a different VNET.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Move an App Service Environment to a different VNET.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginChangeVnetNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; BeginChangeVnetNextAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; BeginChangeVnetNextAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.BeginChangeVnetNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member BeginChangeVnetNextAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.BeginChangeVnetNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Move an App Service Environment to a different VNET.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Move an App Service Environment to a different VNET.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BeginCreateOrUpdateAsync">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; BeginCreateOrUpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; BeginCreateOrUpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -29,11 +111,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginCreateOrUpdateAsync&gt;d__39))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -79,11 +156,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginCreateOrUpdateMultiRolePoolAsync&gt;d__41))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -129,11 +201,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginCreateOrUpdateWorkerPoolAsync&gt;d__44))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -183,11 +250,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginDeleteAsync&gt;d__40))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -235,11 +297,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginResumeAsync&gt;d__42))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -281,11 +338,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginResumeNextAsync&gt;d__68))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -323,11 +375,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginSuspendAsync&gt;d__43))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -369,11 +416,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;BeginSuspendNextAsync&gt;d__69))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -401,6 +443,88 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="ChangeVnetAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; ChangeVnetAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile vnetInfo, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; ChangeVnetAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile vnetInfo, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.ChangeVnetAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ChangeVnetAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.ChangeVnetAsync (operations, resourceGroupName, name, vnetInfo, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="vnetInfo" Type="Microsoft.Azure.Management.AppService.Fluent.Models.VirtualNetworkProfile" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group to which the resource belongs.
+            </param>
+        <param name="name">
+            Name of the App Service Environment.
+            </param>
+        <param name="vnetInfo">
+            Details for the new virtual network.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Move an App Service Environment to a different VNET.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Move an App Service Environment to a different VNET.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ChangeVnetNextAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; ChangeVnetNextAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string nextPageLink, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Rest.Azure.IPage`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt; ChangeVnetNextAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string nextPageLink, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.ChangeVnetNextAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member ChangeVnetNextAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.ChangeVnetNextAsync (operations, nextPageLink, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
+        <Parameter Name="nextPageLink" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="nextPageLink">
+            The NextLink from the previous successful call to List operation.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Move an App Service Environment to a different VNET.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Move an App Service Environment to a different VNET.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CreateOrUpdateAsync">
       <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; CreateOrUpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = null);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; CreateOrUpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
@@ -411,11 +535,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;CreateOrUpdateAsync&gt;d__3))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -461,11 +580,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;CreateOrUpdateMultiRolePoolAsync&gt;d__14))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -511,11 +625,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;CreateOrUpdateWorkerPoolAsync&gt;d__31))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -565,11 +674,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;DeleteAsync&gt;d__4))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -617,11 +721,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;GetAsync&gt;d__2))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -663,11 +762,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;GetDiagnosticsItemAsync&gt;d__9))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HostingEnvironmentDiagnosticsInner&gt;</ReturnType>
       </ReturnValue>
@@ -713,11 +807,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;GetMultiRolePoolAsync&gt;d__13))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -759,11 +848,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;GetWorkerPoolAsync&gt;d__30))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -809,11 +893,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListAppServicePlansAsync&gt;d__25))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -855,11 +934,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListAppServicePlansNextAsync&gt;d__57))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServicePlanInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -897,11 +971,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListAsync&gt;d__0))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -935,11 +1004,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListByResourceGroupAsync&gt;d__1))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -977,11 +1041,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListByResourceGroupNextAsync&gt;d__46))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1019,11 +1078,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListCapacitiesAsync&gt;d__6))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.StampCapacity&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1067,11 +1121,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListCapacitiesNextAsync&gt;d__47))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.StampCapacity&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1111,11 +1160,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListDiagnosticsAsync&gt;d__8))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.HostingEnvironmentDiagnosticsInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1157,11 +1201,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMetricDefinitionsAsync&gt;d__10))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.MetricDefinitionInner&gt;</ReturnType>
       </ReturnValue>
@@ -1203,11 +1242,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMetricsAsync&gt;d__11))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1261,11 +1295,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMetricsNextAsync&gt;d__48))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1303,11 +1332,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleMetricDefinitionsAsync&gt;d__18))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1349,11 +1373,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleMetricDefinitionsNextAsync&gt;d__52))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1391,11 +1410,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleMetricsAsync&gt;d__19))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1461,11 +1475,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleMetricsNextAsync&gt;d__53))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1503,11 +1512,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolInstanceMetricDefinitionsAsync&gt;d__16))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1555,11 +1559,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolInstanceMetricDefinitionsNextAsync&gt;d__50))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1599,11 +1598,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolInstanceMetricsAsync&gt;d__17))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1656,11 +1650,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolInstanceMetricsNextAsync&gt;d__51))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1700,11 +1689,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolsAsync&gt;d__12))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1746,11 +1730,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolSkusAsync&gt;d__20))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SkuInfo&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1792,11 +1771,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolSkusNextAsync&gt;d__54))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SkuInfo&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1834,11 +1808,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRolePoolsNextAsync&gt;d__49))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1876,11 +1845,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleUsagesAsync&gt;d__21))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.Usage&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1922,11 +1886,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListMultiRoleUsagesNextAsync&gt;d__55))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.Usage&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -1964,11 +1923,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListNextAsync&gt;d__45))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2006,11 +1960,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListOperationsAsync&gt;d__22))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IList&lt;Microsoft.Azure.Management.AppService.Fluent.Models.OperationInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2052,11 +2001,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListUsagesAsync&gt;d__28))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CsmUsageQuota&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2105,11 +2049,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListUsagesNextAsync&gt;d__60))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.CsmUsageQuota&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2147,11 +2086,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListVipsAsync&gt;d__7))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AddressResponseInner&gt;</ReturnType>
       </ReturnValue>
@@ -2193,11 +2127,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebAppsAsync&gt;d__26))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2243,11 +2172,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebAppsNextAsync&gt;d__58))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2285,11 +2209,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerMetricDefinitionsAsync&gt;d__35))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2335,11 +2254,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerMetricDefinitionsNextAsync&gt;d__64))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2377,11 +2291,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerMetricsAsync&gt;d__36))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2441,11 +2350,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerMetricsNextAsync&gt;d__65))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2485,11 +2389,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerUsagesAsync&gt;d__38))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.Usage&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2535,11 +2434,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWebWorkerUsagesNextAsync&gt;d__67))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.Usage&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2577,11 +2471,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolInstanceMetricDefinitionsAsync&gt;d__33))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2633,11 +2522,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolInstanceMetricDefinitionsNextAsync&gt;d__62))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetricDefinition&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2677,11 +2561,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolInstanceMetricsAsync&gt;d__34))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2745,11 +2624,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolInstanceMetricsNextAsync&gt;d__63))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.ResourceMetric&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2789,11 +2663,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolsAsync&gt;d__29))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2835,11 +2704,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolSkusAsync&gt;d__37))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SkuInfo&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2885,11 +2749,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolSkusNextAsync&gt;d__66))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SkuInfo&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2927,11 +2786,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ListWorkerPoolsNextAsync&gt;d__61))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -2969,11 +2823,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;RebootAsync&gt;d__23))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
@@ -3015,11 +2864,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ResumeAsync&gt;d__24))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -3061,11 +2905,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;ResumeNextAsync&gt;d__56))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -3103,11 +2942,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;SuspendAsync&gt;d__27))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -3149,11 +2983,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;SuspendNextAsync&gt;d__59))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.AppService.Fluent.Models.SiteInner&gt;&gt;</ReturnType>
       </ReturnValue>
@@ -3181,21 +3010,57 @@
             </remarks>
       </Docs>
     </Member>
-    <Member MemberName="UpdateAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; UpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResourceInner hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = null);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; UpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResourceInner hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResourceInner,System.Threading.CancellationToken)" />
-      <MemberSignature Language="F#" Value="static member UpdateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResourceInner * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.UpdateAsync (operations, resourceGroupName, name, hostingEnvironmentEnvelope, cancellationToken)" />
+    <Member MemberName="SyncVirtualNetworkInfoAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task SyncVirtualNetworkInfoAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task SyncVirtualNetworkInfoAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.SyncVirtualNetworkInfoAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member SyncVirtualNetworkInfoAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.SyncVirtualNetworkInfoAsync (operations, resourceGroupName, name, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;UpdateAsync&gt;d__5))</AttributeName>
-        </Attribute>
-      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            Name of the resource group to which the resource belongs.
+            </param>
+        <param name="name">
+            Name of the App Service Environment.
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Resume an App Service Environment.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Resume an App Service Environment.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UpdateAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; UpdateAsync (this Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResource hostingEnvironmentEnvelope, System.Threading.CancellationToken cancellationToken = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt; UpdateAsync(class Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations operations, string resourceGroupName, string name, class Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResource hostingEnvironmentEnvelope, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.UpdateAsync(Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations,System.String,System.String,Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResource,System.Threading.CancellationToken)" />
+      <MemberSignature Language="F#" Value="static member UpdateAsync : Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations * string * string * Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResource * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;" Usage="Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions.UpdateAsync (operations, resourceGroupName, name, hostingEnvironmentEnvelope, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
+        <AssemblyVersion>1.0.0.60</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -3203,7 +3068,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.Management.AppService.Fluent.IAppServiceEnvironmentsOperations" RefType="this" />
         <Parameter Name="resourceGroupName" Type="System.String" />
         <Parameter Name="name" Type="System.String" />
-        <Parameter Name="hostingEnvironmentEnvelope" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResourceInner" />
+        <Parameter Name="hostingEnvironmentEnvelope" Type="Microsoft.Azure.Management.AppService.Fluent.Models.AppServiceEnvironmentPatchResource" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
@@ -3241,11 +3106,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;UpdateMultiRolePoolAsync&gt;d__15))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
@@ -3291,11 +3151,6 @@
         <AssemblyName>Microsoft.Azure.Management.AppService.Fluent</AssemblyName>
         <AssemblyVersion>1.0.0.60</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="azure-dotnet">
-          <AttributeName>System.Runtime.CompilerServices.AsyncStateMachine(typeof(Microsoft.Azure.Management.AppService.Fluent.AppServiceEnvironmentsOperationsExtensions/&lt;UpdateWorkerPoolAsync&gt;d__32))</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.AppService.Fluent.Models.WorkerPoolResourceInner&gt;</ReturnType>
       </ReturnValue>
